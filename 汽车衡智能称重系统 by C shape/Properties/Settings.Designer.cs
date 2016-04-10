@@ -33,5 +33,16 @@ namespace 汽车衡智能称重系统_by_C_shape.Properties {
                 return ((string)(this["carConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("server=vps.dieling.cc;user id=test;password=1004426187;persistsecurityinfo=True;d" +
+            "atabase=qicheheng")]
+        public string qichehengConnectionString {
+            get {
+                return ((string)(this["qichehengConnectionString"]));
+            }
+        }
     }
 }
