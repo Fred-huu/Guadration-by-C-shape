@@ -16,7 +16,7 @@ namespace 汽车衡智能称重系统_by_C_shape
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new 汽车衡智能称重系统());
         }
     }
 }

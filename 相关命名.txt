@@ -1,0 +1,34 @@
+loginPanel
+newuserPanel
+menuPanel
+
+Î´Ñ¡ÖÐÎª1
+admin1£º
+		adminPanel
+mess1
+	
+	messPanel
+	wmess1:
+		wPanel
+	cmess1:
+		cmPanel
+	dmess1:
+		dmPanel
+add1
+
+	addPanel
+	addcmess1:
+		caddPanel
+	adddmess1:
+		daddPanel
+user1
+	userPanel
+	usermess1£º
+		usermessPanel
+	PWD1:
+		pwdPanel
+includingPanel1
+	includingPanel
+	help1
+	suggest1
+	about1

@@ -1,6 +1,6 @@
 ﻿namespace 汽车衡智能称重系统_by_C_shape
 {
-    partial class Form1
+    partial class 汽车衡智能称重系统
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -30,13 +30,13 @@
         {
             this.SuspendLayout();
             // 
-            // Form1
+            // 汽车衡智能称重系统
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1258, 664);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "汽车衡智能称重系统";
+            this.Text = "汽车衡智能称重系统";
             this.ResumeLayout(false);
 
         }
