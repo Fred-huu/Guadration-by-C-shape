@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(汽车衡智能称重系统));
             this.menuPanel = new System.Windows.Forms.Panel();
             this.Label2 = new System.Windows.Forms.Label();
@@ -241,6 +242,11 @@
             this.help1 = new System.Windows.Forms.PictureBox();
             this.suggest1 = new System.Windows.Forms.PictureBox();
             this.about1 = new System.Windows.Forms.PictureBox();
+            this.Timer1 = new System.Windows.Forms.Timer(this.components);
+            this.SerialPort1 = new System.IO.Ports.SerialPort(this.components);
+            this.OpenDlg = new System.Windows.Forms.OpenFileDialog();
+            this.downPanel = new System.Windows.Forms.Panel();
+            this.time = new System.Windows.Forms.Label();
             this.menuPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.mess0)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.including0)).BeginInit();
@@ -305,6 +311,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.help1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.suggest1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.about1)).BeginInit();
+            this.downPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuPanel
@@ -395,6 +402,7 @@
             this.admin0.TabIndex = 10;
             this.admin0.TabStop = false;
             this.admin0.Visible = false;
+            this.admin0.Click += new System.EventHandler(this.admin0_Click);
             // 
             // add0
             // 
@@ -1524,6 +1532,7 @@
             this.newcancelButton.TabIndex = 121;
             this.newcancelButton.Text = "取消";
             this.newcancelButton.UseVisualStyleBackColor = true;
+            this.newcancelButton.Click += new System.EventHandler(this.newcancelButton_Click);
             // 
             // newokButton
             // 
@@ -1534,6 +1543,7 @@
             this.newokButton.TabIndex = 120;
             this.newokButton.Text = "确定";
             this.newokButton.UseVisualStyleBackColor = true;
+            this.newokButton.Click += new System.EventHandler(this.newokButton_Click);
             // 
             // newpasswTextBox
             // 
@@ -1655,6 +1665,7 @@
             this.账号注册LinkLabel.TabIndex = 4;
             this.账号注册LinkLabel.TabStop = true;
             this.账号注册LinkLabel.Text = "账号注册";
+            this.账号注册LinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.账号注册LinkLabel_LinkClicked);
             // 
             // offButton
             // 
@@ -1668,6 +1679,7 @@
             this.offButton.TabIndex = 6;
             this.offButton.Text = "退出(&C)";
             this.offButton.UseVisualStyleBackColor = false;
+            this.offButton.Click += new System.EventHandler(this.offButton_Click);
             // 
             // 忘记密码LinkLabel
             // 
@@ -1679,6 +1691,7 @@
             this.忘记密码LinkLabel.TabIndex = 3;
             this.忘记密码LinkLabel.TabStop = true;
             this.忘记密码LinkLabel.Text = "忘记密码";
+            this.忘记密码LinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.忘记密码LinkLabel_LinkClicked);
             // 
             // Label56
             // 
@@ -1725,6 +1738,7 @@
             this.entryButton.TabIndex = 5;
             this.entryButton.Text = "登陆(&L)";
             this.entryButton.UseVisualStyleBackColor = false;
+            this.entryButton.Click += new System.EventHandler(this.entryButton_Click);
             // 
             // PasswordTextBox
             // 
@@ -1969,6 +1983,7 @@
             this.openButton.TabIndex = 69;
             this.openButton.Text = "启动(&S)";
             this.openButton.UseVisualStyleBackColor = true;
+            this.openButton.Click += new System.EventHandler(this.openButton_Click);
             // 
             // ComboBox1
             // 
@@ -2524,17 +2539,50 @@
             this.about1.TabIndex = 1;
             this.about1.TabStop = false;
             // 
+            // Timer1
+            // 
+            this.Timer1.Enabled = true;
+            this.Timer1.Interval = 1000;
+            this.Timer1.Tick += new System.EventHandler(this.Timer1_Tick);
+            // 
+            // OpenDlg
+            // 
+            this.OpenDlg.FileName = "OpenDlg";
+            // 
+            // downPanel
+            // 
+            this.downPanel.BackColor = System.Drawing.Color.Transparent;
+            this.downPanel.Controls.Add(this.time);
+            this.downPanel.Location = new System.Drawing.Point(0, 628);
+            this.downPanel.Name = "downPanel";
+            this.downPanel.Size = new System.Drawing.Size(1280, 38);
+            this.downPanel.TabIndex = 138;
+            // 
+            // time
+            // 
+            this.time.AutoSize = true;
+            this.time.BackColor = System.Drawing.Color.Transparent;
+            this.time.Location = new System.Drawing.Point(1070, 10);
+            this.time.Name = "time";
+            this.time.Size = new System.Drawing.Size(62, 18);
+            this.time.TabIndex = 13;
+            this.time.Text = "Label4";
+            // 
             // 汽车衡智能称重系统
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1258, 664);
+            this.Controls.Add(this.menuPanel);
+            this.Controls.Add(this.downPanel);
             this.Controls.Add(this.includingPanel);
             this.Controls.Add(this.userPanel);
             this.Controls.Add(this.addPanel);
             this.Controls.Add(this.messPanel);
+            this.Controls.Add(this.adminPanel);
+            this.Controls.Add(this.loginPanel);
+            this.Controls.Add(this.newuserPanel);
             this.Controls.Add(this.aboutPanel);
-            this.Controls.Add(this.menuPanel);
             this.Controls.Add(this.suggestPanel);
             this.Controls.Add(this.helpPanel);
             this.Controls.Add(this.wPanel);
@@ -2544,13 +2592,11 @@
             this.Controls.Add(this.cmPanel);
             this.Controls.Add(this.daddPanel);
             this.Controls.Add(this.caddPanel);
-            this.Controls.Add(this.newuserPanel);
-            this.Controls.Add(this.loginPanel);
-            this.Controls.Add(this.adminPanel);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "汽车衡智能称重系统";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "汽车衡智能称重系统";
+            this.Load += new System.EventHandler(this.汽车衡智能称重系统_Load);
             this.menuPanel.ResumeLayout(false);
             this.menuPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.mess0)).EndInit();
@@ -2627,6 +2673,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.help1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.suggest1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.about1)).EndInit();
+            this.downPanel.ResumeLayout(false);
+            this.downPanel.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -2845,6 +2893,11 @@
         internal System.Windows.Forms.PictureBox help1;
         internal System.Windows.Forms.PictureBox suggest1;
         internal System.Windows.Forms.PictureBox about1;
+        internal System.Windows.Forms.Timer Timer1;
+        internal System.IO.Ports.SerialPort SerialPort1;
+        internal System.Windows.Forms.OpenFileDialog OpenDlg;
+        internal System.Windows.Forms.Panel downPanel;
+        internal System.Windows.Forms.Label time;
     }
 }
 
