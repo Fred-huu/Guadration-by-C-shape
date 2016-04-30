@@ -56,8 +56,6 @@ namespace 汽车衡智能称重系统_by_C_shape
             dmPanel.Visible = false;
             caddPanel.Visible = false;
             daddPanel.Visible = false;
-            usermessPanel.Visible = false;
-            pwdPanel.Visible = false;
             helpPanel.Visible = false;
             suggestPanel.Visible = false;
             aboutPanel.Visible = false;
@@ -153,8 +151,6 @@ namespace 汽车衡智能称重系统_by_C_shape
             dmPanel.Visible = false;
             caddPanel.Visible = false;
             daddPanel.Visible = false;
-            usermessPanel.Visible = false;
-            pwdPanel.Visible = false;
             helpPanel.Visible = false;
             suggestPanel.Visible = false;
             aboutPanel.Visible = false;
@@ -188,6 +184,113 @@ namespace 汽车衡智能称重系统_by_C_shape
                 TextBox12.Text = "";
                 kindTextBox.Text = "";
                 adminremarkTextBox.Text = "";
+            }
+
+            //货物净重称量
+       if(TextBox11.Text != "" && TextBox10.Text != "")
+           {
+                decimal aa = Convert.ToDecimal(TextBox11.Text) - Convert.ToDecimal(TextBox10.Text);
+                TextBox12.Text = aa.ToString();
+            }
+        else
+            {
+                TextBox12.Text = "";
+            }
+        }
+
+        //上传按钮
+        private void updateButton_Click(object sender, EventArgs e)
+        {
+            // 二级菜单
+            messPanel.Visible = false;
+            addPanel.Visible = false;
+            userPanel.Visible = false;
+            includingPanel.Visible = false;
+        }
+
+        //复位键
+        private void 复位LinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            //二级菜单
+            messPanel.Visible = false;
+            addPanel.Visible = false;
+            userPanel.Visible = false;
+            includingPanel.Visible = false;
+
+            TextBox1.Text = "";
+            TextBox2.Text = "";
+            TextBox3.Text = "";
+            TextBox4.Text = "";
+            TextBox5.Text = "";
+            TextBox6.Text = "";
+            TextBox7.Text = "";
+            TextBox8.Text = "";
+            TextBox9.Text = "";
+            TextBox10.Text = "";
+            TextBox11.Text = "";
+            TextBox12.Text = "";
+            kindTextBox.Text = "";
+            adminremarkTextBox.Text = "";
+            ComboBox1.Text = "";
+            ComboBox2.Text = "";
+        }
+
+        //修改车牌号界面
+        //打开修改界面
+        private void 修改LinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            //二级菜单
+            messPanel.Visible = false;
+            addPanel.Visible = false;
+            userPanel.Visible = false;
+            includingPanel.Visible = false;
+
+            modifyPanel.Visible = true;
+        }
+
+        //确定修改车牌号
+        private void OK_Click(object sender, EventArgs e)
+        {
+            //二级菜单
+            messPanel.Visible = false;
+            addPanel.Visible = false;
+            userPanel.Visible = false;
+            includingPanel.Visible = false;
+
+            if (modifyTextBox.Text != "")
+            {
+
+                //将修改后的车牌号传输到管理界面上
+                TextBox7.Text = modifyTextBox.Text;
+
+            //清空管理界面的值
+            if (TextBox1.Text != "" && TextBox2.Text != "" && TextBox3.Text != "" && TextBox4.Text != "" && TextBox5.Text != "" && TextBox6.Text != "" && TextBox8.Text != "" && TextBox10.Text != "" && TextBox12.Text != ""  )
+               {
+                    TextBox1.Text = "";
+                    TextBox2.Text = "";
+                    TextBox3.Text = "";
+                    TextBox4.Text = "";
+                    TextBox5.Text = "";
+                    TextBox6.Text = "";
+                    TextBox8.Text = "";
+                    TextBox10.Text = "";
+                    TextBox12.Text = "";
+                    kindTextBox.Text = "";
+                    adminremarkTextBox.Text = "";
+                }
+
+
+                //重新计算货物重量
+                if (TextBox11.Text != "" && TextBox10.Text != "")
+                {
+                    decimal aa = Convert.ToDecimal(TextBox11.Text) - Convert.ToDecimal(TextBox10.Text);
+                    TextBox12.Text = aa.ToString();
+                }
+                else
+                {
+                    TextBox12.Text = "";
+                }
+
             }
         }
     }

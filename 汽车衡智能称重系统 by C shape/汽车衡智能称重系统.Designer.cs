@@ -35,52 +35,13 @@
             this.UserLabel = new System.Windows.Forms.Label();
             this.mess0 = new System.Windows.Forms.PictureBox();
             this.including0 = new System.Windows.Forms.PictureBox();
-            this.user0 = new System.Windows.Forms.PictureBox();
             this.admin0 = new System.Windows.Forms.PictureBox();
             this.add0 = new System.Windows.Forms.PictureBox();
             this.mess1 = new System.Windows.Forms.PictureBox();
             this.including1 = new System.Windows.Forms.PictureBox();
-            this.user1 = new System.Windows.Forms.PictureBox();
             this.add1 = new System.Windows.Forms.PictureBox();
             this.admin1 = new System.Windows.Forms.PictureBox();
             this.PictureBox1 = new System.Windows.Forms.PictureBox();
-            this.aboutPanel = new System.Windows.Forms.Panel();
-            this.版本信息Label = new System.Windows.Forms.Label();
-            this.人员姓名Label = new System.Windows.Forms.Label();
-            this.开发人员Label = new System.Windows.Forms.Label();
-            this.PictureBox15 = new System.Windows.Forms.PictureBox();
-            this.开发人员PictureBox = new System.Windows.Forms.PictureBox();
-            this.PictureBox13 = new System.Windows.Forms.PictureBox();
-            this.suggestPanel = new System.Windows.Forms.Panel();
-            this.PictureBox12 = new System.Windows.Forms.PictureBox();
-            this.helpPanel = new System.Windows.Forms.Panel();
-            this.PictureBox11 = new System.Windows.Forms.PictureBox();
-            this.wPanel = new System.Windows.Forms.Panel();
-            this.selectButton = new System.Windows.Forms.Button();
-            this.ListView1 = new System.Windows.Forms.ListView();
-            this.ColumnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.ColumnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.ColumnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.ColumnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.ColumnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.ColumnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.PictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pwdPanel = new System.Windows.Forms.Panel();
-            this.newpwdagainTextBox = new System.Windows.Forms.TextBox();
-            this.Label53 = new System.Windows.Forms.Label();
-            this.pwdOK = new System.Windows.Forms.Button();
-            this.newpwdTextBox = new System.Windows.Forms.TextBox();
-            this.oldpwdTextBox = new System.Windows.Forms.TextBox();
-            this.Label54 = new System.Windows.Forms.Label();
-            this.Label55 = new System.Windows.Forms.Label();
-            this.PictureBox10 = new System.Windows.Forms.PictureBox();
-            this.usermessPanel = new System.Windows.Forms.Panel();
-            this.signoutLinkLabel = new System.Windows.Forms.LinkLabel();
-            this.usernameTextBox = new System.Windows.Forms.TextBox();
-            this.nameTextBox = new System.Windows.Forms.TextBox();
-            this.Label57 = new System.Windows.Forms.Label();
-            this.Label59 = new System.Windows.Forms.Label();
-            this.PictureBox9 = new System.Windows.Forms.PictureBox();
             this.dmPanel = new System.Windows.Forms.Panel();
             this.TextBox18 = new System.Windows.Forms.TextBox();
             this.dmTextBox = new System.Windows.Forms.TextBox();
@@ -126,26 +87,6 @@
             this.Label43 = new System.Windows.Forms.Label();
             this.Label44 = new System.Windows.Forms.Label();
             this.PictureBox7 = new System.Windows.Forms.PictureBox();
-            this.daddPanel = new System.Windows.Forms.Panel();
-            this.pictureButton = new System.Windows.Forms.Button();
-            this.Label36 = new System.Windows.Forms.Label();
-            this.driverPictureBox = new System.Windows.Forms.PictureBox();
-            this.clearLinkLabel2 = new System.Windows.Forms.LinkLabel();
-            this.driverupdateButton = new System.Windows.Forms.Button();
-            this.TextBox34 = new System.Windows.Forms.TextBox();
-            this.TextBox33 = new System.Windows.Forms.TextBox();
-            this.TextBox32 = new System.Windows.Forms.TextBox();
-            this.TextBox31 = new System.Windows.Forms.TextBox();
-            this.TextBox30 = new System.Windows.Forms.TextBox();
-            this.TextBox29 = new System.Windows.Forms.TextBox();
-            this.Label45 = new System.Windows.Forms.Label();
-            this.Label46 = new System.Windows.Forms.Label();
-            this.Label47 = new System.Windows.Forms.Label();
-            this.Label48 = new System.Windows.Forms.Label();
-            this.Label49 = new System.Windows.Forms.Label();
-            this.Label50 = new System.Windows.Forms.Label();
-            this.Label51 = new System.Windows.Forms.Label();
-            this.PictureBox8 = new System.Windows.Forms.PictureBox();
             this.newuserPanel = new System.Windows.Forms.Panel();
             this.logintime = new System.Windows.Forms.Label();
             this.newcancelButton = new System.Windows.Forms.Button();
@@ -170,6 +111,28 @@
             this.entryButton = new System.Windows.Forms.Button();
             this.PasswordTextBox = new System.Windows.Forms.TextBox();
             this.USERTextBox = new System.Windows.Forms.TextBox();
+            this.messPanel = new System.Windows.Forms.Panel();
+            this.wmess0 = new System.Windows.Forms.PictureBox();
+            this.cmess0 = new System.Windows.Forms.PictureBox();
+            this.dmess0 = new System.Windows.Forms.PictureBox();
+            this.wmess1 = new System.Windows.Forms.PictureBox();
+            this.cmess1 = new System.Windows.Forms.PictureBox();
+            this.dmess1 = new System.Windows.Forms.PictureBox();
+            this.addPanel = new System.Windows.Forms.Panel();
+            this.addcmess0 = new System.Windows.Forms.PictureBox();
+            this.adddmess0 = new System.Windows.Forms.PictureBox();
+            this.addcmess1 = new System.Windows.Forms.PictureBox();
+            this.adddmess1 = new System.Windows.Forms.PictureBox();
+            this.includingPanel = new System.Windows.Forms.Panel();
+            this.help0 = new System.Windows.Forms.PictureBox();
+            this.suggest0 = new System.Windows.Forms.PictureBox();
+            this.about0 = new System.Windows.Forms.PictureBox();
+            this.help1 = new System.Windows.Forms.PictureBox();
+            this.suggest1 = new System.Windows.Forms.PictureBox();
+            this.about1 = new System.Windows.Forms.PictureBox();
+            this.Timer1 = new System.Windows.Forms.Timer(this.components);
+            this.SerialPort1 = new System.IO.Ports.SerialPort(this.components);
+            this.OpenDlg = new System.Windows.Forms.OpenFileDialog();
             this.adminPanel = new System.Windows.Forms.Panel();
             this.Label68 = new System.Windows.Forms.Label();
             this.adminremarkTextBox = new System.Windows.Forms.TextBox();
@@ -218,47 +181,104 @@
             this.TextBox9 = new System.Windows.Forms.TextBox();
             this.TextBox4 = new System.Windows.Forms.TextBox();
             this.TextBox3 = new System.Windows.Forms.TextBox();
-            this.messPanel = new System.Windows.Forms.Panel();
-            this.cmess0 = new System.Windows.Forms.PictureBox();
-            this.wmess0 = new System.Windows.Forms.PictureBox();
-            this.dmess0 = new System.Windows.Forms.PictureBox();
-            this.wmess1 = new System.Windows.Forms.PictureBox();
-            this.cmess1 = new System.Windows.Forms.PictureBox();
-            this.dmess1 = new System.Windows.Forms.PictureBox();
-            this.addPanel = new System.Windows.Forms.Panel();
-            this.adddmess0 = new System.Windows.Forms.PictureBox();
-            this.addcmess0 = new System.Windows.Forms.PictureBox();
-            this.addcmess1 = new System.Windows.Forms.PictureBox();
-            this.adddmess1 = new System.Windows.Forms.PictureBox();
-            this.userPanel = new System.Windows.Forms.Panel();
-            this.PWD0 = new System.Windows.Forms.PictureBox();
-            this.usermess0 = new System.Windows.Forms.PictureBox();
-            this.usermess1 = new System.Windows.Forms.PictureBox();
-            this.PWD1 = new System.Windows.Forms.PictureBox();
-            this.includingPanel = new System.Windows.Forms.Panel();
-            this.suggest0 = new System.Windows.Forms.PictureBox();
-            this.help0 = new System.Windows.Forms.PictureBox();
-            this.about0 = new System.Windows.Forms.PictureBox();
-            this.help1 = new System.Windows.Forms.PictureBox();
-            this.suggest1 = new System.Windows.Forms.PictureBox();
-            this.about1 = new System.Windows.Forms.PictureBox();
-            this.Timer1 = new System.Windows.Forms.Timer(this.components);
-            this.SerialPort1 = new System.IO.Ports.SerialPort(this.components);
-            this.OpenDlg = new System.Windows.Forms.OpenFileDialog();
+            this.backgroundPanel = new System.Windows.Forms.Panel();
+            this.htPictureBox = new System.Windows.Forms.PictureBox();
+            this.dielingWebBrowser = new System.Windows.Forms.WebBrowser();
+            this.daddPanel = new System.Windows.Forms.Panel();
+            this.TextBox16 = new System.Windows.Forms.TextBox();
+            this.Label26 = new System.Windows.Forms.Label();
+            this.clearLinkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.driverupdateButton = new System.Windows.Forms.Button();
+            this.TextBox34 = new System.Windows.Forms.TextBox();
+            this.TextBox33 = new System.Windows.Forms.TextBox();
+            this.TextBox32 = new System.Windows.Forms.TextBox();
+            this.TextBox31 = new System.Windows.Forms.TextBox();
+            this.TextBox30 = new System.Windows.Forms.TextBox();
+            this.TextBox29 = new System.Windows.Forms.TextBox();
+            this.Label45 = new System.Windows.Forms.Label();
+            this.Label46 = new System.Windows.Forms.Label();
+            this.Label47 = new System.Windows.Forms.Label();
+            this.Label48 = new System.Windows.Forms.Label();
+            this.Label49 = new System.Windows.Forms.Label();
+            this.Label50 = new System.Windows.Forms.Label();
+            this.Label51 = new System.Windows.Forms.Label();
+            this.PictureBox8 = new System.Windows.Forms.PictureBox();
+            this.aboutPanel = new System.Windows.Forms.Panel();
+            this.版本信息Label = new System.Windows.Forms.Label();
+            this.人员姓名Label = new System.Windows.Forms.Label();
+            this.开发人员Label = new System.Windows.Forms.Label();
+            this.PictureBox15 = new System.Windows.Forms.PictureBox();
+            this.开发人员PictureBox = new System.Windows.Forms.PictureBox();
+            this.PictureBox13 = new System.Windows.Forms.PictureBox();
+            this.suggestPanel = new System.Windows.Forms.Panel();
+            this.suggestLabel = new System.Windows.Forms.Label();
+            this.suggestTextBox = new System.Windows.Forms.TextBox();
+            this.suggestButton = new System.Windows.Forms.Button();
+            this.PictureBox12 = new System.Windows.Forms.PictureBox();
+            this.helpPanel = new System.Windows.Forms.Panel();
+            this.includingLabel = new System.Windows.Forms.Label();
+            this.PictureBox11 = new System.Windows.Forms.PictureBox();
+            this.wPanel = new System.Windows.Forms.Panel();
+            this.selectButton = new System.Windows.Forms.Button();
+            this.ListView1 = new System.Windows.Forms.ListView();
+            this.ColumnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.ColumnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.ColumnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.ColumnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.ColumnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.ColumnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.ColumnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.PictureBox3 = new System.Windows.Forms.PictureBox();
+            this.Label25 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
             this.downPanel = new System.Windows.Forms.Panel();
+            this.backgroundLinkLabel = new System.Windows.Forms.LinkLabel();
+            this.signoutLinkLabel = new System.Windows.Forms.LinkLabel();
             this.time = new System.Windows.Forms.Label();
             this.menuPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.mess0)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.including0)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.user0)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.admin0)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.add0)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mess1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.including1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.user1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.add1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.admin1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
+            this.dmPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox6)).BeginInit();
+            this.cmPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox5)).BeginInit();
+            this.caddPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox7)).BeginInit();
+            this.newuserPanel.SuspendLayout();
+            this.loginPanel.SuspendLayout();
+            this.messPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.wmess0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cmess0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dmess0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.wmess1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cmess1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dmess1)).BeginInit();
+            this.addPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.addcmess0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.adddmess0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.addcmess1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.adddmess1)).BeginInit();
+            this.includingPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.help0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.suggest0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.about0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.help1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.suggest1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.about1)).BeginInit();
+            this.adminPanel.SuspendLayout();
+            this.modifyPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox4)).BeginInit();
+            this.backgroundPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.htPictureBox)).BeginInit();
+            this.daddPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox8)).BeginInit();
             this.aboutPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.开发人员PictureBox)).BeginInit();
@@ -269,64 +289,22 @@
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox11)).BeginInit();
             this.wPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox3)).BeginInit();
-            this.pwdPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox10)).BeginInit();
-            this.usermessPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox9)).BeginInit();
-            this.dmPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox6)).BeginInit();
-            this.cmPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox5)).BeginInit();
-            this.caddPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox7)).BeginInit();
-            this.daddPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.driverPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox8)).BeginInit();
-            this.newuserPanel.SuspendLayout();
-            this.loginPanel.SuspendLayout();
-            this.adminPanel.SuspendLayout();
-            this.modifyPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox4)).BeginInit();
-            this.messPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.cmess0)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.wmess0)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dmess0)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.wmess1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cmess1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dmess1)).BeginInit();
-            this.addPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.adddmess0)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.addcmess0)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.addcmess1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.adddmess1)).BeginInit();
-            this.userPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PWD0)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.usermess0)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.usermess1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PWD1)).BeginInit();
-            this.includingPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.suggest0)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.help0)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.about0)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.help1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.suggest1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.about1)).BeginInit();
             this.downPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuPanel
             // 
             this.menuPanel.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.menuPanel.Controls.Add(this.Label25);
+            this.menuPanel.Controls.Add(this.label36);
             this.menuPanel.Controls.Add(this.Label2);
             this.menuPanel.Controls.Add(this.UserLabel);
             this.menuPanel.Controls.Add(this.mess0);
             this.menuPanel.Controls.Add(this.including0);
-            this.menuPanel.Controls.Add(this.user0);
             this.menuPanel.Controls.Add(this.admin0);
             this.menuPanel.Controls.Add(this.add0);
             this.menuPanel.Controls.Add(this.mess1);
             this.menuPanel.Controls.Add(this.including1);
-            this.menuPanel.Controls.Add(this.user1);
             this.menuPanel.Controls.Add(this.add1);
             this.menuPanel.Controls.Add(this.admin1);
             this.menuPanel.Controls.Add(this.PictureBox1);
@@ -371,24 +349,12 @@
             this.including0.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.including0.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.including0.Image = ((System.Drawing.Image)(resources.GetObject("including0.Image")));
-            this.including0.Location = new System.Drawing.Point(0, 300);
+            this.including0.Location = new System.Drawing.Point(0, 240);
             this.including0.Name = "including0";
             this.including0.Size = new System.Drawing.Size(200, 60);
             this.including0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.including0.TabIndex = 7;
             this.including0.TabStop = false;
-            // 
-            // user0
-            // 
-            this.user0.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.user0.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.user0.Image = ((System.Drawing.Image)(resources.GetObject("user0.Image")));
-            this.user0.Location = new System.Drawing.Point(0, 241);
-            this.user0.Name = "user0";
-            this.user0.Size = new System.Drawing.Size(200, 60);
-            this.user0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.user0.TabIndex = 8;
-            this.user0.TabStop = false;
             // 
             // admin0
             // 
@@ -433,24 +399,12 @@
             this.including1.BackColor = System.Drawing.SystemColors.Menu;
             this.including1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.including1.Image = ((System.Drawing.Image)(resources.GetObject("including1.Image")));
-            this.including1.Location = new System.Drawing.Point(0, 300);
+            this.including1.Location = new System.Drawing.Point(0, 240);
             this.including1.Name = "including1";
             this.including1.Size = new System.Drawing.Size(200, 60);
             this.including1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.including1.TabIndex = 1;
             this.including1.TabStop = false;
-            // 
-            // user1
-            // 
-            this.user1.BackColor = System.Drawing.SystemColors.Menu;
-            this.user1.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.user1.Image = ((System.Drawing.Image)(resources.GetObject("user1.Image")));
-            this.user1.Location = new System.Drawing.Point(0, 240);
-            this.user1.Name = "user1";
-            this.user1.Size = new System.Drawing.Size(200, 60);
-            this.user1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.user1.TabIndex = 2;
-            this.user1.TabStop = false;
             // 
             // add1
             // 
@@ -487,362 +441,6 @@
             this.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PictureBox1.TabIndex = 0;
             this.PictureBox1.TabStop = false;
-            // 
-            // aboutPanel
-            // 
-            this.aboutPanel.Controls.Add(this.版本信息Label);
-            this.aboutPanel.Controls.Add(this.人员姓名Label);
-            this.aboutPanel.Controls.Add(this.开发人员Label);
-            this.aboutPanel.Controls.Add(this.PictureBox15);
-            this.aboutPanel.Controls.Add(this.开发人员PictureBox);
-            this.aboutPanel.Controls.Add(this.PictureBox13);
-            this.aboutPanel.Location = new System.Drawing.Point(200, 0);
-            this.aboutPanel.Name = "aboutPanel";
-            this.aboutPanel.Size = new System.Drawing.Size(1060, 478);
-            this.aboutPanel.TabIndex = 113;
-            // 
-            // 版本信息Label
-            // 
-            this.版本信息Label.AutoSize = true;
-            this.版本信息Label.Location = new System.Drawing.Point(110, 385);
-            this.版本信息Label.Name = "版本信息Label";
-            this.版本信息Label.Size = new System.Drawing.Size(161, 18);
-            this.版本信息Label.TabIndex = 110;
-            this.版本信息Label.Text = "3.0.160411.2 BETA";
-            // 
-            // 人员姓名Label
-            // 
-            this.人员姓名Label.AutoSize = true;
-            this.人员姓名Label.Location = new System.Drawing.Point(480, 190);
-            this.人员姓名Label.Name = "人员姓名Label";
-            this.人员姓名Label.Size = new System.Drawing.Size(62, 54);
-            this.人员姓名Label.TabIndex = 109;
-            this.人员姓名Label.Text = "颜胜\r\n胡永定\r\n叶兴";
-            // 
-            // 开发人员Label
-            // 
-            this.开发人员Label.AutoSize = true;
-            this.开发人员Label.Location = new System.Drawing.Point(110, 190);
-            this.开发人员Label.Name = "开发人员Label";
-            this.开发人员Label.Size = new System.Drawing.Size(368, 72);
-            this.开发人员Label.TabIndex = 108;
-            this.开发人员Label.Text = "汽车衡智能称重系统硬件平台的设计：\r\n汽车衡智能称重系统数据采集的设计与实现：\r\n汽车衡智能称重信息管理系统的设计与实现：\r\n\r\n";
-            // 
-            // PictureBox15
-            // 
-            this.PictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox15.Image")));
-            this.PictureBox15.Location = new System.Drawing.Point(110, 310);
-            this.PictureBox15.Name = "PictureBox15";
-            this.PictureBox15.Size = new System.Drawing.Size(216, 50);
-            this.PictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PictureBox15.TabIndex = 107;
-            this.PictureBox15.TabStop = false;
-            // 
-            // 开发人员PictureBox
-            // 
-            this.开发人员PictureBox.Image = ((System.Drawing.Image)(resources.GetObject("开发人员PictureBox.Image")));
-            this.开发人员PictureBox.Location = new System.Drawing.Point(110, 125);
-            this.开发人员PictureBox.Name = "开发人员PictureBox";
-            this.开发人员PictureBox.Size = new System.Drawing.Size(216, 50);
-            this.开发人员PictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.开发人员PictureBox.TabIndex = 106;
-            this.开发人员PictureBox.TabStop = false;
-            // 
-            // PictureBox13
-            // 
-            this.PictureBox13.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.PictureBox13.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.PictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox13.Image")));
-            this.PictureBox13.Location = new System.Drawing.Point(0, 0);
-            this.PictureBox13.Name = "PictureBox13";
-            this.PictureBox13.Size = new System.Drawing.Size(1060, 60);
-            this.PictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PictureBox13.TabIndex = 105;
-            this.PictureBox13.TabStop = false;
-            // 
-            // suggestPanel
-            // 
-            this.suggestPanel.Controls.Add(this.PictureBox12);
-            this.suggestPanel.Location = new System.Drawing.Point(200, 0);
-            this.suggestPanel.Name = "suggestPanel";
-            this.suggestPanel.Size = new System.Drawing.Size(1060, 263);
-            this.suggestPanel.TabIndex = 114;
-            // 
-            // PictureBox12
-            // 
-            this.PictureBox12.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.PictureBox12.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.PictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox12.Image")));
-            this.PictureBox12.Location = new System.Drawing.Point(0, 0);
-            this.PictureBox12.Name = "PictureBox12";
-            this.PictureBox12.Size = new System.Drawing.Size(1060, 60);
-            this.PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PictureBox12.TabIndex = 105;
-            this.PictureBox12.TabStop = false;
-            // 
-            // helpPanel
-            // 
-            this.helpPanel.Controls.Add(this.PictureBox11);
-            this.helpPanel.Location = new System.Drawing.Point(200, 0);
-            this.helpPanel.Name = "helpPanel";
-            this.helpPanel.Size = new System.Drawing.Size(1060, 231);
-            this.helpPanel.TabIndex = 115;
-            // 
-            // PictureBox11
-            // 
-            this.PictureBox11.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.PictureBox11.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.PictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox11.Image")));
-            this.PictureBox11.Location = new System.Drawing.Point(0, 0);
-            this.PictureBox11.Name = "PictureBox11";
-            this.PictureBox11.Size = new System.Drawing.Size(1060, 60);
-            this.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PictureBox11.TabIndex = 105;
-            this.PictureBox11.TabStop = false;
-            // 
-            // wPanel
-            // 
-            this.wPanel.Controls.Add(this.selectButton);
-            this.wPanel.Controls.Add(this.ListView1);
-            this.wPanel.Controls.Add(this.PictureBox3);
-            this.wPanel.Location = new System.Drawing.Point(200, 0);
-            this.wPanel.Name = "wPanel";
-            this.wPanel.Size = new System.Drawing.Size(1060, 560);
-            this.wPanel.TabIndex = 116;
-            // 
-            // selectButton
-            // 
-            this.selectButton.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.selectButton.Location = new System.Drawing.Point(483, 512);
-            this.selectButton.Name = "selectButton";
-            this.selectButton.Size = new System.Drawing.Size(94, 33);
-            this.selectButton.TabIndex = 107;
-            this.selectButton.Text = "查询";
-            this.selectButton.UseVisualStyleBackColor = true;
-            // 
-            // ListView1
-            // 
-            this.ListView1.BackgroundImageTiled = true;
-            this.ListView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.ColumnHeader1,
-            this.ColumnHeader2,
-            this.ColumnHeader3,
-            this.ColumnHeader4,
-            this.ColumnHeader5,
-            this.ColumnHeader6});
-            this.ListView1.FullRowSelect = true;
-            this.ListView1.GridLines = true;
-            this.ListView1.Location = new System.Drawing.Point(100, 126);
-            this.ListView1.MinimumSize = new System.Drawing.Size(4, 4);
-            this.ListView1.Name = "ListView1";
-            this.ListView1.Size = new System.Drawing.Size(700, 372);
-            this.ListView1.TabIndex = 106;
-            this.ListView1.UseCompatibleStateImageBehavior = false;
-            this.ListView1.View = System.Windows.Forms.View.Details;
-            // 
-            // ColumnHeader1
-            // 
-            this.ColumnHeader1.Text = "编号";
-            this.ColumnHeader1.Width = 40;
-            // 
-            // ColumnHeader2
-            // 
-            this.ColumnHeader2.Text = "车牌号";
-            this.ColumnHeader2.Width = 90;
-            // 
-            // ColumnHeader3
-            // 
-            this.ColumnHeader3.Text = "管理账户";
-            // 
-            // ColumnHeader4
-            // 
-            this.ColumnHeader4.Text = "货物净重(t)";
-            this.ColumnHeader4.Width = 80;
-            // 
-            // ColumnHeader5
-            // 
-            this.ColumnHeader5.Text = "货物类型";
-            // 
-            // ColumnHeader6
-            // 
-            this.ColumnHeader6.Text = "称量时间";
-            this.ColumnHeader6.Width = 130;
-            // 
-            // PictureBox3
-            // 
-            this.PictureBox3.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.PictureBox3.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.PictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox3.Image")));
-            this.PictureBox3.Location = new System.Drawing.Point(0, 0);
-            this.PictureBox3.Name = "PictureBox3";
-            this.PictureBox3.Size = new System.Drawing.Size(1060, 60);
-            this.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PictureBox3.TabIndex = 105;
-            this.PictureBox3.TabStop = false;
-            // 
-            // pwdPanel
-            // 
-            this.pwdPanel.Controls.Add(this.newpwdagainTextBox);
-            this.pwdPanel.Controls.Add(this.Label53);
-            this.pwdPanel.Controls.Add(this.pwdOK);
-            this.pwdPanel.Controls.Add(this.newpwdTextBox);
-            this.pwdPanel.Controls.Add(this.oldpwdTextBox);
-            this.pwdPanel.Controls.Add(this.Label54);
-            this.pwdPanel.Controls.Add(this.Label55);
-            this.pwdPanel.Controls.Add(this.PictureBox10);
-            this.pwdPanel.Location = new System.Drawing.Point(200, 0);
-            this.pwdPanel.Name = "pwdPanel";
-            this.pwdPanel.Size = new System.Drawing.Size(1060, 403);
-            this.pwdPanel.TabIndex = 117;
-            // 
-            // newpwdagainTextBox
-            // 
-            this.newpwdagainTextBox.Location = new System.Drawing.Point(537, 272);
-            this.newpwdagainTextBox.Name = "newpwdagainTextBox";
-            this.newpwdagainTextBox.PasswordChar = '*';
-            this.newpwdagainTextBox.Size = new System.Drawing.Size(170, 28);
-            this.newpwdagainTextBox.TabIndex = 108;
-            // 
-            // Label53
-            // 
-            this.Label53.AutoSize = true;
-            this.Label53.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Label53.Location = new System.Drawing.Point(353, 279);
-            this.Label53.Name = "Label53";
-            this.Label53.Size = new System.Drawing.Size(178, 21);
-            this.Label53.TabIndex = 112;
-            this.Label53.Text = "请重新输入新密码";
-            // 
-            // pwdOK
-            // 
-            this.pwdOK.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.pwdOK.Location = new System.Drawing.Point(496, 337);
-            this.pwdOK.Name = "pwdOK";
-            this.pwdOK.Size = new System.Drawing.Size(94, 33);
-            this.pwdOK.TabIndex = 109;
-            this.pwdOK.Text = "确定";
-            this.pwdOK.UseVisualStyleBackColor = true;
-            // 
-            // newpwdTextBox
-            // 
-            this.newpwdTextBox.Location = new System.Drawing.Point(537, 238);
-            this.newpwdTextBox.Name = "newpwdTextBox";
-            this.newpwdTextBox.PasswordChar = '*';
-            this.newpwdTextBox.Size = new System.Drawing.Size(170, 28);
-            this.newpwdTextBox.TabIndex = 107;
-            // 
-            // oldpwdTextBox
-            // 
-            this.oldpwdTextBox.Location = new System.Drawing.Point(536, 204);
-            this.oldpwdTextBox.MaxLength = 13;
-            this.oldpwdTextBox.Multiline = true;
-            this.oldpwdTextBox.Name = "oldpwdTextBox";
-            this.oldpwdTextBox.PasswordChar = '*';
-            this.oldpwdTextBox.Size = new System.Drawing.Size(170, 28);
-            this.oldpwdTextBox.TabIndex = 106;
-            // 
-            // Label54
-            // 
-            this.Label54.AutoSize = true;
-            this.Label54.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Label54.Location = new System.Drawing.Point(394, 211);
-            this.Label54.Name = "Label54";
-            this.Label54.Size = new System.Drawing.Size(136, 21);
-            this.Label54.TabIndex = 111;
-            this.Label54.Text = "请输入原密码";
-            // 
-            // Label55
-            // 
-            this.Label55.AutoSize = true;
-            this.Label55.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Label55.Location = new System.Drawing.Point(395, 245);
-            this.Label55.Name = "Label55";
-            this.Label55.Size = new System.Drawing.Size(136, 21);
-            this.Label55.TabIndex = 110;
-            this.Label55.Text = "请输入新密码";
-            // 
-            // PictureBox10
-            // 
-            this.PictureBox10.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.PictureBox10.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.PictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox10.Image")));
-            this.PictureBox10.Location = new System.Drawing.Point(0, 0);
-            this.PictureBox10.Name = "PictureBox10";
-            this.PictureBox10.Size = new System.Drawing.Size(1060, 60);
-            this.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PictureBox10.TabIndex = 105;
-            this.PictureBox10.TabStop = false;
-            // 
-            // usermessPanel
-            // 
-            this.usermessPanel.Controls.Add(this.signoutLinkLabel);
-            this.usermessPanel.Controls.Add(this.usernameTextBox);
-            this.usermessPanel.Controls.Add(this.nameTextBox);
-            this.usermessPanel.Controls.Add(this.Label57);
-            this.usermessPanel.Controls.Add(this.Label59);
-            this.usermessPanel.Controls.Add(this.PictureBox9);
-            this.usermessPanel.Location = new System.Drawing.Point(200, 0);
-            this.usermessPanel.Name = "usermessPanel";
-            this.usermessPanel.Size = new System.Drawing.Size(1060, 385);
-            this.usermessPanel.TabIndex = 118;
-            // 
-            // signoutLinkLabel
-            // 
-            this.signoutLinkLabel.AutoSize = true;
-            this.signoutLinkLabel.Location = new System.Drawing.Point(607, 284);
-            this.signoutLinkLabel.Name = "signoutLinkLabel";
-            this.signoutLinkLabel.Size = new System.Drawing.Size(44, 18);
-            this.signoutLinkLabel.TabIndex = 158;
-            this.signoutLinkLabel.TabStop = true;
-            this.signoutLinkLabel.Text = "注销";
-            // 
-            // usernameTextBox
-            // 
-            this.usernameTextBox.Enabled = false;
-            this.usernameTextBox.Location = new System.Drawing.Point(481, 212);
-            this.usernameTextBox.Name = "usernameTextBox";
-            this.usernameTextBox.Size = new System.Drawing.Size(170, 28);
-            this.usernameTextBox.TabIndex = 156;
-            // 
-            // nameTextBox
-            // 
-            this.nameTextBox.Enabled = false;
-            this.nameTextBox.Location = new System.Drawing.Point(481, 247);
-            this.nameTextBox.Name = "nameTextBox";
-            this.nameTextBox.Size = new System.Drawing.Size(170, 28);
-            this.nameTextBox.TabIndex = 155;
-            // 
-            // Label57
-            // 
-            this.Label57.AutoSize = true;
-            this.Label57.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Label57.Location = new System.Drawing.Point(384, 217);
-            this.Label57.Name = "Label57";
-            this.Label57.Size = new System.Drawing.Size(52, 21);
-            this.Label57.TabIndex = 148;
-            this.Label57.Text = "姓名";
-            // 
-            // Label59
-            // 
-            this.Label59.AutoSize = true;
-            this.Label59.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Label59.Location = new System.Drawing.Point(384, 252);
-            this.Label59.Name = "Label59";
-            this.Label59.Size = new System.Drawing.Size(52, 21);
-            this.Label59.TabIndex = 146;
-            this.Label59.Text = "账号";
-            // 
-            // PictureBox9
-            // 
-            this.PictureBox9.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.PictureBox9.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.PictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox9.Image")));
-            this.PictureBox9.Location = new System.Drawing.Point(0, 0);
-            this.PictureBox9.Name = "PictureBox9";
-            this.PictureBox9.Size = new System.Drawing.Size(1060, 60);
-            this.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PictureBox9.TabIndex = 105;
-            this.PictureBox9.TabStop = false;
             // 
             // dmPanel
             // 
@@ -1083,9 +681,9 @@
             this.Label22.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Label22.Location = new System.Drawing.Point(650, 371);
             this.Label22.Name = "Label22";
-            this.Label22.Size = new System.Drawing.Size(21, 21);
+            this.Label22.Size = new System.Drawing.Size(32, 21);
             this.Label22.TabIndex = 140;
-            this.Label22.Text = "t";
+            this.Label22.Text = "kg";
             // 
             // TextBox15
             // 
@@ -1292,204 +890,6 @@
             this.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PictureBox7.TabIndex = 105;
             this.PictureBox7.TabStop = false;
-            // 
-            // daddPanel
-            // 
-            this.daddPanel.Controls.Add(this.pictureButton);
-            this.daddPanel.Controls.Add(this.Label36);
-            this.daddPanel.Controls.Add(this.driverPictureBox);
-            this.daddPanel.Controls.Add(this.clearLinkLabel2);
-            this.daddPanel.Controls.Add(this.driverupdateButton);
-            this.daddPanel.Controls.Add(this.TextBox34);
-            this.daddPanel.Controls.Add(this.TextBox33);
-            this.daddPanel.Controls.Add(this.TextBox32);
-            this.daddPanel.Controls.Add(this.TextBox31);
-            this.daddPanel.Controls.Add(this.TextBox30);
-            this.daddPanel.Controls.Add(this.TextBox29);
-            this.daddPanel.Controls.Add(this.Label45);
-            this.daddPanel.Controls.Add(this.Label46);
-            this.daddPanel.Controls.Add(this.Label47);
-            this.daddPanel.Controls.Add(this.Label48);
-            this.daddPanel.Controls.Add(this.Label49);
-            this.daddPanel.Controls.Add(this.Label50);
-            this.daddPanel.Controls.Add(this.Label51);
-            this.daddPanel.Controls.Add(this.PictureBox8);
-            this.daddPanel.Location = new System.Drawing.Point(200, 0);
-            this.daddPanel.Name = "daddPanel";
-            this.daddPanel.Size = new System.Drawing.Size(1060, 481);
-            this.daddPanel.TabIndex = 123;
-            // 
-            // pictureButton
-            // 
-            this.pictureButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.pictureButton.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.pictureButton.Location = new System.Drawing.Point(722, 420);
-            this.pictureButton.Name = "pictureButton";
-            this.pictureButton.Size = new System.Drawing.Size(94, 33);
-            this.pictureButton.TabIndex = 130;
-            this.pictureButton.Text = "浏览";
-            this.pictureButton.UseVisualStyleBackColor = true;
-            // 
-            // Label36
-            // 
-            this.Label36.AutoSize = true;
-            this.Label36.Location = new System.Drawing.Point(566, 427);
-            this.Label36.Name = "Label36";
-            this.Label36.Size = new System.Drawing.Size(80, 18);
-            this.Label36.TabIndex = 129;
-            this.Label36.Text = "司机照片";
-            // 
-            // driverPictureBox
-            // 
-            this.driverPictureBox.BackColor = System.Drawing.Color.Silver;
-            this.driverPictureBox.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.driverPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("driverPictureBox.Image")));
-            this.driverPictureBox.Location = new System.Drawing.Point(566, 96);
-            this.driverPictureBox.Name = "driverPictureBox";
-            this.driverPictureBox.Size = new System.Drawing.Size(250, 318);
-            this.driverPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.driverPictureBox.TabIndex = 128;
-            this.driverPictureBox.TabStop = false;
-            // 
-            // clearLinkLabel2
-            // 
-            this.clearLinkLabel2.AutoSize = true;
-            this.clearLinkLabel2.Location = new System.Drawing.Point(369, 359);
-            this.clearLinkLabel2.Name = "clearLinkLabel2";
-            this.clearLinkLabel2.Size = new System.Drawing.Size(80, 18);
-            this.clearLinkLabel2.TabIndex = 121;
-            this.clearLinkLabel2.TabStop = true;
-            this.clearLinkLabel2.Text = "清除数据";
-            // 
-            // driverupdateButton
-            // 
-            this.driverupdateButton.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.driverupdateButton.Location = new System.Drawing.Point(358, 420);
-            this.driverupdateButton.Name = "driverupdateButton";
-            this.driverupdateButton.Size = new System.Drawing.Size(94, 33);
-            this.driverupdateButton.TabIndex = 112;
-            this.driverupdateButton.Text = "上传";
-            this.driverupdateButton.UseVisualStyleBackColor = true;
-            // 
-            // TextBox34
-            // 
-            this.TextBox34.Location = new System.Drawing.Point(372, 319);
-            this.TextBox34.Name = "TextBox34";
-            this.TextBox34.Size = new System.Drawing.Size(170, 28);
-            this.TextBox34.TabIndex = 111;
-            // 
-            // TextBox33
-            // 
-            this.TextBox33.Location = new System.Drawing.Point(372, 284);
-            this.TextBox33.Name = "TextBox33";
-            this.TextBox33.Size = new System.Drawing.Size(170, 28);
-            this.TextBox33.TabIndex = 110;
-            // 
-            // TextBox32
-            // 
-            this.TextBox32.Location = new System.Drawing.Point(372, 249);
-            this.TextBox32.Name = "TextBox32";
-            this.TextBox32.Size = new System.Drawing.Size(170, 28);
-            this.TextBox32.TabIndex = 109;
-            // 
-            // TextBox31
-            // 
-            this.TextBox31.Location = new System.Drawing.Point(372, 214);
-            this.TextBox31.Name = "TextBox31";
-            this.TextBox31.Size = new System.Drawing.Size(170, 28);
-            this.TextBox31.TabIndex = 108;
-            // 
-            // TextBox30
-            // 
-            this.TextBox30.Location = new System.Drawing.Point(372, 179);
-            this.TextBox30.Name = "TextBox30";
-            this.TextBox30.Size = new System.Drawing.Size(170, 28);
-            this.TextBox30.TabIndex = 107;
-            // 
-            // TextBox29
-            // 
-            this.TextBox29.Location = new System.Drawing.Point(372, 144);
-            this.TextBox29.MaxLength = 18;
-            this.TextBox29.Multiline = true;
-            this.TextBox29.Name = "TextBox29";
-            this.TextBox29.Size = new System.Drawing.Size(170, 28);
-            this.TextBox29.TabIndex = 106;
-            // 
-            // Label45
-            // 
-            this.Label45.AutoSize = true;
-            this.Label45.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Label45.Location = new System.Drawing.Point(287, 104);
-            this.Label45.Name = "Label45";
-            this.Label45.Size = new System.Drawing.Size(137, 39);
-            this.Label45.TabIndex = 120;
-            this.Label45.Text = "司机信息";
-            // 
-            // Label46
-            // 
-            this.Label46.AutoSize = true;
-            this.Label46.Location = new System.Drawing.Point(287, 149);
-            this.Label46.Name = "Label46";
-            this.Label46.Size = new System.Drawing.Size(80, 18);
-            this.Label46.TabIndex = 119;
-            this.Label46.Text = "驾驶证号";
-            // 
-            // Label47
-            // 
-            this.Label47.AutoSize = true;
-            this.Label47.Location = new System.Drawing.Point(287, 184);
-            this.Label47.Name = "Label47";
-            this.Label47.Size = new System.Drawing.Size(44, 18);
-            this.Label47.TabIndex = 118;
-            this.Label47.Text = "姓名";
-            // 
-            // Label48
-            // 
-            this.Label48.AutoSize = true;
-            this.Label48.Location = new System.Drawing.Point(287, 219);
-            this.Label48.Name = "Label48";
-            this.Label48.Size = new System.Drawing.Size(80, 18);
-            this.Label48.TabIndex = 117;
-            this.Label48.Text = "出生日期";
-            // 
-            // Label49
-            // 
-            this.Label49.AutoSize = true;
-            this.Label49.Location = new System.Drawing.Point(287, 254);
-            this.Label49.Name = "Label49";
-            this.Label49.Size = new System.Drawing.Size(80, 18);
-            this.Label49.TabIndex = 116;
-            this.Label49.Text = "驾照类型";
-            // 
-            // Label50
-            // 
-            this.Label50.AutoSize = true;
-            this.Label50.Location = new System.Drawing.Point(287, 324);
-            this.Label50.Name = "Label50";
-            this.Label50.Size = new System.Drawing.Size(80, 18);
-            this.Label50.TabIndex = 115;
-            this.Label50.Text = "联系电话";
-            // 
-            // Label51
-            // 
-            this.Label51.AutoSize = true;
-            this.Label51.Location = new System.Drawing.Point(287, 289);
-            this.Label51.Name = "Label51";
-            this.Label51.Size = new System.Drawing.Size(44, 18);
-            this.Label51.TabIndex = 114;
-            this.Label51.Text = "部门";
-            // 
-            // PictureBox8
-            // 
-            this.PictureBox8.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.PictureBox8.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.PictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox8.Image")));
-            this.PictureBox8.Location = new System.Drawing.Point(0, 0);
-            this.PictureBox8.Name = "PictureBox8";
-            this.PictureBox8.Size = new System.Drawing.Size(1060, 60);
-            this.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PictureBox8.TabIndex = 105;
-            this.PictureBox8.TabStop = false;
             // 
             // newuserPanel
             // 
@@ -1755,505 +1155,11 @@
             this.USERTextBox.Size = new System.Drawing.Size(221, 28);
             this.USERTextBox.TabIndex = 1;
             // 
-            // adminPanel
-            // 
-            this.adminPanel.Controls.Add(this.Label68);
-            this.adminPanel.Controls.Add(this.adminremarkTextBox);
-            this.adminPanel.Controls.Add(this.Label67);
-            this.adminPanel.Controls.Add(this.kindTextBox);
-            this.adminPanel.Controls.Add(this.修改LinkLabel);
-            this.adminPanel.Controls.Add(this.modifyPanel);
-            this.adminPanel.Controls.Add(this.复位LinkLabel);
-            this.adminPanel.Controls.Add(this.PictureBox4);
-            this.adminPanel.Controls.Add(this.Label18);
-            this.adminPanel.Controls.Add(this.Label21);
-            this.adminPanel.Controls.Add(this.Label16);
-            this.adminPanel.Controls.Add(this.ComboBox2);
-            this.adminPanel.Controls.Add(this.openButton);
-            this.adminPanel.Controls.Add(this.ComboBox1);
-            this.adminPanel.Controls.Add(this.updateButton);
-            this.adminPanel.Controls.Add(this.TextBox2);
-            this.adminPanel.Controls.Add(this.Label15);
-            this.adminPanel.Controls.Add(this.TextBox1);
-            this.adminPanel.Controls.Add(this.Label14);
-            this.adminPanel.Controls.Add(this.Label20);
-            this.adminPanel.Controls.Add(this.Label13);
-            this.adminPanel.Controls.Add(this.Label4);
-            this.adminPanel.Controls.Add(this.Label5);
-            this.adminPanel.Controls.Add(this.Label3);
-            this.adminPanel.Controls.Add(this.Label6);
-            this.adminPanel.Controls.Add(this.Label1);
-            this.adminPanel.Controls.Add(this.Label7);
-            this.adminPanel.Controls.Add(this.TextBox12);
-            this.adminPanel.Controls.Add(this.Label8);
-            this.adminPanel.Controls.Add(this.Label19);
-            this.adminPanel.Controls.Add(this.Label9);
-            this.adminPanel.Controls.Add(this.TextBox11);
-            this.adminPanel.Controls.Add(this.Label10);
-            this.adminPanel.Controls.Add(this.Label17);
-            this.adminPanel.Controls.Add(this.Label11);
-            this.adminPanel.Controls.Add(this.TextBox10);
-            this.adminPanel.Controls.Add(this.TextBox8);
-            this.adminPanel.Controls.Add(this.TextBox6);
-            this.adminPanel.Controls.Add(this.TextBox7);
-            this.adminPanel.Controls.Add(this.TextBox5);
-            this.adminPanel.Controls.Add(this.TextBox9);
-            this.adminPanel.Controls.Add(this.TextBox4);
-            this.adminPanel.Controls.Add(this.TextBox3);
-            this.adminPanel.Location = new System.Drawing.Point(200, 0);
-            this.adminPanel.Name = "adminPanel";
-            this.adminPanel.Size = new System.Drawing.Size(1060, 608);
-            this.adminPanel.TabIndex = 133;
-            // 
-            // Label68
-            // 
-            this.Label68.AutoSize = true;
-            this.Label68.Location = new System.Drawing.Point(520, 545);
-            this.Label68.Name = "Label68";
-            this.Label68.Size = new System.Drawing.Size(44, 18);
-            this.Label68.TabIndex = 112;
-            this.Label68.Text = "备注";
-            // 
-            // adminremarkTextBox
-            // 
-            this.adminremarkTextBox.Location = new System.Drawing.Point(605, 540);
-            this.adminremarkTextBox.Name = "adminremarkTextBox";
-            this.adminremarkTextBox.Size = new System.Drawing.Size(107, 28);
-            this.adminremarkTextBox.TabIndex = 111;
-            // 
-            // Label67
-            // 
-            this.Label67.AutoSize = true;
-            this.Label67.Location = new System.Drawing.Point(520, 405);
-            this.Label67.Name = "Label67";
-            this.Label67.Size = new System.Drawing.Size(80, 18);
-            this.Label67.TabIndex = 110;
-            this.Label67.Text = "货物类型";
-            // 
-            // kindTextBox
-            // 
-            this.kindTextBox.Location = new System.Drawing.Point(605, 400);
-            this.kindTextBox.Name = "kindTextBox";
-            this.kindTextBox.Size = new System.Drawing.Size(89, 28);
-            this.kindTextBox.TabIndex = 109;
-            // 
-            // 修改LinkLabel
-            // 
-            this.修改LinkLabel.AutoSize = true;
-            this.修改LinkLabel.Location = new System.Drawing.Point(276, 512);
-            this.修改LinkLabel.Name = "修改LinkLabel";
-            this.修改LinkLabel.Size = new System.Drawing.Size(44, 18);
-            this.修改LinkLabel.TabIndex = 108;
-            this.修改LinkLabel.TabStop = true;
-            this.修改LinkLabel.Text = "修改";
-            // 
-            // modifyPanel
-            // 
-            this.modifyPanel.BackColor = System.Drawing.SystemColors.Menu;
-            this.modifyPanel.Controls.Add(this.Cancel);
-            this.modifyPanel.Controls.Add(this.OK);
-            this.modifyPanel.Controls.Add(this.modifyTextBox);
-            this.modifyPanel.Controls.Add(this.Label52);
-            this.modifyPanel.Location = new System.Drawing.Point(816, 266);
-            this.modifyPanel.Name = "modifyPanel";
-            this.modifyPanel.Size = new System.Drawing.Size(200, 215);
-            this.modifyPanel.TabIndex = 107;
-            this.modifyPanel.Visible = false;
-            // 
-            // Cancel
-            // 
-            this.Cancel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Cancel.BackColor = System.Drawing.Color.Transparent;
-            this.Cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.Cancel.Location = new System.Drawing.Point(58, 150);
-            this.Cancel.Name = "Cancel";
-            this.Cancel.Size = new System.Drawing.Size(90, 33);
-            this.Cancel.TabIndex = 10;
-            this.Cancel.Text = "取消";
-            this.Cancel.UseVisualStyleBackColor = false;
-            // 
-            // OK
-            // 
-            this.OK.BackColor = System.Drawing.Color.Transparent;
-            this.OK.Location = new System.Drawing.Point(58, 111);
-            this.OK.Name = "OK";
-            this.OK.Size = new System.Drawing.Size(90, 33);
-            this.OK.TabIndex = 9;
-            this.OK.Text = "确定";
-            this.OK.UseVisualStyleBackColor = false;
-            // 
-            // modifyTextBox
-            // 
-            this.modifyTextBox.Location = new System.Drawing.Point(71, 68);
-            this.modifyTextBox.Name = "modifyTextBox";
-            this.modifyTextBox.Size = new System.Drawing.Size(112, 28);
-            this.modifyTextBox.TabIndex = 8;
-            // 
-            // Label52
-            // 
-            this.Label52.AutoSize = true;
-            this.Label52.Location = new System.Drawing.Point(6, 42);
-            this.Label52.Name = "Label52";
-            this.Label52.Size = new System.Drawing.Size(116, 54);
-            this.Label52.TabIndex = 7;
-            this.Label52.Text = "请输入正确的\r\n\r\n车牌号";
-            // 
-            // 复位LinkLabel
-            // 
-            this.复位LinkLabel.AutoSize = true;
-            this.复位LinkLabel.Location = new System.Drawing.Point(336, 512);
-            this.复位LinkLabel.Name = "复位LinkLabel";
-            this.复位LinkLabel.Size = new System.Drawing.Size(44, 18);
-            this.复位LinkLabel.TabIndex = 106;
-            this.复位LinkLabel.TabStop = true;
-            this.复位LinkLabel.Text = "复位";
-            // 
-            // PictureBox4
-            // 
-            this.PictureBox4.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.PictureBox4.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.PictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox4.Image")));
-            this.PictureBox4.Location = new System.Drawing.Point(0, 0);
-            this.PictureBox4.Name = "PictureBox4";
-            this.PictureBox4.Size = new System.Drawing.Size(1060, 60);
-            this.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PictureBox4.TabIndex = 105;
-            this.PictureBox4.TabStop = false;
-            // 
-            // Label18
-            // 
-            this.Label18.AutoSize = true;
-            this.Label18.Location = new System.Drawing.Point(260, 210);
-            this.Label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.Label18.Name = "Label18";
-            this.Label18.Size = new System.Drawing.Size(62, 18);
-            this.Label18.TabIndex = 103;
-            this.Label18.Text = "波特率";
-            // 
-            // Label21
-            // 
-            this.Label21.AutoSize = true;
-            this.Label21.Location = new System.Drawing.Point(260, 170);
-            this.Label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.Label21.Name = "Label21";
-            this.Label21.Size = new System.Drawing.Size(44, 18);
-            this.Label21.TabIndex = 102;
-            this.Label21.Text = "端口";
-            // 
-            // Label16
-            // 
-            this.Label16.AutoSize = true;
-            this.Label16.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Label16.Location = new System.Drawing.Point(520, 255);
-            this.Label16.Name = "Label16";
-            this.Label16.Size = new System.Drawing.Size(110, 31);
-            this.Label16.TabIndex = 71;
-            this.Label16.Text = "称量信息";
-            // 
-            // ComboBox2
-            // 
-            this.ComboBox2.FormattingEnabled = true;
-            this.ComboBox2.Items.AddRange(new object[] {
-            "110",
-            "300",
-            "600",
-            "1200",
-            "2400",
-            "4800",
-            "9600",
-            "19200",
-            "38400",
-            "56000",
-            "57600",
-            "115200"});
-            this.ComboBox2.Location = new System.Drawing.Point(345, 205);
-            this.ComboBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.ComboBox2.Name = "ComboBox2";
-            this.ComboBox2.Size = new System.Drawing.Size(180, 26);
-            this.ComboBox2.TabIndex = 101;
-            // 
-            // openButton
-            // 
-            this.openButton.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.openButton.Location = new System.Drawing.Point(605, 180);
-            this.openButton.Name = "openButton";
-            this.openButton.Size = new System.Drawing.Size(94, 33);
-            this.openButton.TabIndex = 69;
-            this.openButton.Text = "启动(&S)";
-            this.openButton.UseVisualStyleBackColor = true;
-            this.openButton.Click += new System.EventHandler(this.openButton_Click);
-            // 
-            // ComboBox1
-            // 
-            this.ComboBox1.FormattingEnabled = true;
-            this.ComboBox1.Location = new System.Drawing.Point(345, 166);
-            this.ComboBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.ComboBox1.Name = "ComboBox1";
-            this.ComboBox1.Size = new System.Drawing.Size(180, 26);
-            this.ComboBox1.TabIndex = 100;
-            // 
-            // updateButton
-            // 
-            this.updateButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.updateButton.Enabled = false;
-            this.updateButton.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.updateButton.Location = new System.Drawing.Point(401, 510);
-            this.updateButton.Name = "updateButton";
-            this.updateButton.Size = new System.Drawing.Size(94, 33);
-            this.updateButton.TabIndex = 70;
-            this.updateButton.Text = "上传(&U)";
-            this.updateButton.UseVisualStyleBackColor = true;
-            // 
-            // TextBox2
-            // 
-            this.TextBox2.Enabled = false;
-            this.TextBox2.Location = new System.Drawing.Point(345, 330);
-            this.TextBox2.Name = "TextBox2";
-            this.TextBox2.Size = new System.Drawing.Size(150, 28);
-            this.TextBox2.TabIndex = 99;
-            // 
-            // Label15
-            // 
-            this.Label15.AutoSize = true;
-            this.Label15.Location = new System.Drawing.Point(260, 440);
-            this.Label15.Name = "Label15";
-            this.Label15.Size = new System.Drawing.Size(80, 18);
-            this.Label15.TabIndex = 72;
-            this.Label15.Text = "驾照类型";
-            // 
-            // TextBox1
-            // 
-            this.TextBox1.Enabled = false;
-            this.TextBox1.Location = new System.Drawing.Point(345, 295);
-            this.TextBox1.Name = "TextBox1";
-            this.TextBox1.Size = new System.Drawing.Size(150, 28);
-            this.TextBox1.TabIndex = 98;
-            // 
-            // Label14
-            // 
-            this.Label14.AutoSize = true;
-            this.Label14.Location = new System.Drawing.Point(260, 475);
-            this.Label14.Name = "Label14";
-            this.Label14.Size = new System.Drawing.Size(80, 18);
-            this.Label14.TabIndex = 73;
-            this.Label14.Text = "联系电话";
-            // 
-            // Label20
-            // 
-            this.Label20.AutoSize = true;
-            this.Label20.Location = new System.Drawing.Point(695, 440);
-            this.Label20.Name = "Label20";
-            this.Label20.Size = new System.Drawing.Size(17, 18);
-            this.Label20.TabIndex = 97;
-            this.Label20.Text = "t";
-            // 
-            // Label13
-            // 
-            this.Label13.AutoSize = true;
-            this.Label13.Location = new System.Drawing.Point(260, 405);
-            this.Label13.Name = "Label13";
-            this.Label13.Size = new System.Drawing.Size(44, 18);
-            this.Label13.TabIndex = 74;
-            this.Label13.Text = "部门";
-            // 
-            // Label4
-            // 
-            this.Label4.AutoSize = true;
-            this.Label4.Location = new System.Drawing.Point(695, 475);
-            this.Label4.Name = "Label4";
-            this.Label4.Size = new System.Drawing.Size(17, 18);
-            this.Label4.TabIndex = 96;
-            this.Label4.Text = "t";
-            // 
-            // Label5
-            // 
-            this.Label5.AutoSize = true;
-            this.Label5.Location = new System.Drawing.Point(260, 370);
-            this.Label5.Name = "Label5";
-            this.Label5.Size = new System.Drawing.Size(80, 18);
-            this.Label5.TabIndex = 75;
-            this.Label5.Text = "出生日期";
-            // 
-            // Label3
-            // 
-            this.Label3.AutoSize = true;
-            this.Label3.Location = new System.Drawing.Point(695, 510);
-            this.Label3.Name = "Label3";
-            this.Label3.Size = new System.Drawing.Size(17, 18);
-            this.Label3.TabIndex = 95;
-            this.Label3.Text = "t";
-            // 
-            // Label6
-            // 
-            this.Label6.AutoSize = true;
-            this.Label6.Location = new System.Drawing.Point(520, 335);
-            this.Label6.Name = "Label6";
-            this.Label6.Size = new System.Drawing.Size(80, 18);
-            this.Label6.TabIndex = 76;
-            this.Label6.Text = "汽车类型";
-            // 
-            // Label1
-            // 
-            this.Label1.AutoSize = true;
-            this.Label1.Location = new System.Drawing.Point(520, 370);
-            this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(80, 18);
-            this.Label1.TabIndex = 94;
-            this.Label1.Text = "称量时间";
-            // 
-            // Label7
-            // 
-            this.Label7.AutoSize = true;
-            this.Label7.Location = new System.Drawing.Point(260, 335);
-            this.Label7.Name = "Label7";
-            this.Label7.Size = new System.Drawing.Size(44, 18);
-            this.Label7.TabIndex = 77;
-            this.Label7.Text = "姓名";
-            // 
-            // TextBox12
-            // 
-            this.TextBox12.Enabled = false;
-            this.TextBox12.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.TextBox12.Location = new System.Drawing.Point(605, 505);
-            this.TextBox12.Name = "TextBox12";
-            this.TextBox12.Size = new System.Drawing.Size(89, 28);
-            this.TextBox12.TabIndex = 93;
-            // 
-            // Label8
-            // 
-            this.Label8.AutoSize = true;
-            this.Label8.Location = new System.Drawing.Point(260, 300);
-            this.Label8.Name = "Label8";
-            this.Label8.Size = new System.Drawing.Size(80, 18);
-            this.Label8.TabIndex = 78;
-            this.Label8.Text = "驾驶证号";
-            // 
-            // Label19
-            // 
-            this.Label19.AutoSize = true;
-            this.Label19.Location = new System.Drawing.Point(520, 440);
-            this.Label19.Name = "Label19";
-            this.Label19.Size = new System.Drawing.Size(80, 18);
-            this.Label19.TabIndex = 92;
-            this.Label19.Text = "车辆皮重";
-            // 
-            // Label9
-            // 
-            this.Label9.AutoSize = true;
-            this.Label9.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Label9.Location = new System.Drawing.Point(260, 255);
-            this.Label9.Name = "Label9";
-            this.Label9.Size = new System.Drawing.Size(110, 31);
-            this.Label9.TabIndex = 79;
-            this.Label9.Text = "司机信息";
-            // 
-            // TextBox11
-            // 
-            this.TextBox11.Enabled = false;
-            this.TextBox11.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.TextBox11.Location = new System.Drawing.Point(605, 470);
-            this.TextBox11.Name = "TextBox11";
-            this.TextBox11.Size = new System.Drawing.Size(89, 28);
-            this.TextBox11.TabIndex = 91;
-            // 
-            // Label10
-            // 
-            this.Label10.AutoSize = true;
-            this.Label10.Location = new System.Drawing.Point(520, 475);
-            this.Label10.Name = "Label10";
-            this.Label10.Size = new System.Drawing.Size(80, 18);
-            this.Label10.TabIndex = 80;
-            this.Label10.Text = "车辆毛重";
-            // 
-            // Label17
-            // 
-            this.Label17.AutoSize = true;
-            this.Label17.Location = new System.Drawing.Point(520, 510);
-            this.Label17.Name = "Label17";
-            this.Label17.Size = new System.Drawing.Size(80, 18);
-            this.Label17.TabIndex = 90;
-            this.Label17.Text = "货物净重";
-            // 
-            // Label11
-            // 
-            this.Label11.AutoSize = true;
-            this.Label11.Location = new System.Drawing.Point(520, 300);
-            this.Label11.Name = "Label11";
-            this.Label11.Size = new System.Drawing.Size(62, 18);
-            this.Label11.TabIndex = 81;
-            this.Label11.Text = "车牌号";
-            // 
-            // TextBox10
-            // 
-            this.TextBox10.Enabled = false;
-            this.TextBox10.Location = new System.Drawing.Point(605, 435);
-            this.TextBox10.Name = "TextBox10";
-            this.TextBox10.Size = new System.Drawing.Size(89, 28);
-            this.TextBox10.TabIndex = 89;
-            // 
-            // TextBox8
-            // 
-            this.TextBox8.Enabled = false;
-            this.TextBox8.Location = new System.Drawing.Point(605, 330);
-            this.TextBox8.Name = "TextBox8";
-            this.TextBox8.Size = new System.Drawing.Size(89, 28);
-            this.TextBox8.TabIndex = 82;
-            // 
-            // TextBox6
-            // 
-            this.TextBox6.Enabled = false;
-            this.TextBox6.Location = new System.Drawing.Point(345, 470);
-            this.TextBox6.Name = "TextBox6";
-            this.TextBox6.Size = new System.Drawing.Size(150, 28);
-            this.TextBox6.TabIndex = 88;
-            // 
-            // TextBox7
-            // 
-            this.TextBox7.Enabled = false;
-            this.TextBox7.Location = new System.Drawing.Point(605, 295);
-            this.TextBox7.Name = "TextBox7";
-            this.TextBox7.Size = new System.Drawing.Size(89, 28);
-            this.TextBox7.TabIndex = 83;
-            // 
-            // TextBox5
-            // 
-            this.TextBox5.Enabled = false;
-            this.TextBox5.Location = new System.Drawing.Point(345, 435);
-            this.TextBox5.Name = "TextBox5";
-            this.TextBox5.Size = new System.Drawing.Size(150, 28);
-            this.TextBox5.TabIndex = 87;
-            // 
-            // TextBox9
-            // 
-            this.TextBox9.Enabled = false;
-            this.TextBox9.Location = new System.Drawing.Point(605, 365);
-            this.TextBox9.Name = "TextBox9";
-            this.TextBox9.Size = new System.Drawing.Size(89, 28);
-            this.TextBox9.TabIndex = 84;
-            // 
-            // TextBox4
-            // 
-            this.TextBox4.Enabled = false;
-            this.TextBox4.Location = new System.Drawing.Point(345, 400);
-            this.TextBox4.Name = "TextBox4";
-            this.TextBox4.Size = new System.Drawing.Size(150, 28);
-            this.TextBox4.TabIndex = 86;
-            // 
-            // TextBox3
-            // 
-            this.TextBox3.Enabled = false;
-            this.TextBox3.Location = new System.Drawing.Point(345, 365);
-            this.TextBox3.Name = "TextBox3";
-            this.TextBox3.Size = new System.Drawing.Size(150, 28);
-            this.TextBox3.TabIndex = 85;
-            // 
             // messPanel
             // 
             this.messPanel.BackColor = System.Drawing.SystemColors.Menu;
-            this.messPanel.Controls.Add(this.cmess0);
             this.messPanel.Controls.Add(this.wmess0);
+            this.messPanel.Controls.Add(this.cmess0);
             this.messPanel.Controls.Add(this.dmess0);
             this.messPanel.Controls.Add(this.wmess1);
             this.messPanel.Controls.Add(this.cmess1);
@@ -2262,18 +1168,6 @@
             this.messPanel.Name = "messPanel";
             this.messPanel.Size = new System.Drawing.Size(175, 135);
             this.messPanel.TabIndex = 134;
-            // 
-            // cmess0
-            // 
-            this.cmess0.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.cmess0.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.cmess0.Image = ((System.Drawing.Image)(resources.GetObject("cmess0.Image")));
-            this.cmess0.Location = new System.Drawing.Point(0, 45);
-            this.cmess0.Name = "cmess0";
-            this.cmess0.Size = new System.Drawing.Size(175, 45);
-            this.cmess0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.cmess0.TabIndex = 5;
-            this.cmess0.TabStop = false;
             // 
             // wmess0
             // 
@@ -2286,6 +1180,18 @@
             this.wmess0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.wmess0.TabIndex = 6;
             this.wmess0.TabStop = false;
+            // 
+            // cmess0
+            // 
+            this.cmess0.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.cmess0.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.cmess0.Image = ((System.Drawing.Image)(resources.GetObject("cmess0.Image")));
+            this.cmess0.Location = new System.Drawing.Point(0, 45);
+            this.cmess0.Name = "cmess0";
+            this.cmess0.Size = new System.Drawing.Size(175, 45);
+            this.cmess0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.cmess0.TabIndex = 5;
+            this.cmess0.TabStop = false;
             // 
             // dmess0
             // 
@@ -2337,26 +1243,14 @@
             // 
             // addPanel
             // 
-            this.addPanel.Controls.Add(this.adddmess0);
             this.addPanel.Controls.Add(this.addcmess0);
+            this.addPanel.Controls.Add(this.adddmess0);
             this.addPanel.Controls.Add(this.addcmess1);
             this.addPanel.Controls.Add(this.adddmess1);
             this.addPanel.Location = new System.Drawing.Point(200, 180);
             this.addPanel.Name = "addPanel";
             this.addPanel.Size = new System.Drawing.Size(175, 90);
             this.addPanel.TabIndex = 135;
-            // 
-            // adddmess0
-            // 
-            this.adddmess0.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.adddmess0.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.adddmess0.Image = ((System.Drawing.Image)(resources.GetObject("adddmess0.Image")));
-            this.adddmess0.Location = new System.Drawing.Point(0, 45);
-            this.adddmess0.Name = "adddmess0";
-            this.adddmess0.Size = new System.Drawing.Size(175, 45);
-            this.adddmess0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.adddmess0.TabIndex = 109;
-            this.adddmess0.TabStop = false;
             // 
             // addcmess0
             // 
@@ -2369,6 +1263,18 @@
             this.addcmess0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.addcmess0.TabIndex = 108;
             this.addcmess0.TabStop = false;
+            // 
+            // adddmess0
+            // 
+            this.adddmess0.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.adddmess0.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.adddmess0.Image = ((System.Drawing.Image)(resources.GetObject("adddmess0.Image")));
+            this.adddmess0.Location = new System.Drawing.Point(0, 45);
+            this.adddmess0.Name = "adddmess0";
+            this.adddmess0.Size = new System.Drawing.Size(175, 45);
+            this.adddmess0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.adddmess0.TabIndex = 109;
+            this.adddmess0.TabStop = false;
             // 
             // addcmess1
             // 
@@ -2394,90 +1300,19 @@
             this.adddmess1.TabIndex = 111;
             this.adddmess1.TabStop = false;
             // 
-            // userPanel
-            // 
-            this.userPanel.Controls.Add(this.PWD0);
-            this.userPanel.Controls.Add(this.usermess0);
-            this.userPanel.Controls.Add(this.usermess1);
-            this.userPanel.Controls.Add(this.PWD1);
-            this.userPanel.Location = new System.Drawing.Point(200, 240);
-            this.userPanel.Name = "userPanel";
-            this.userPanel.Size = new System.Drawing.Size(175, 90);
-            this.userPanel.TabIndex = 136;
-            // 
-            // PWD0
-            // 
-            this.PWD0.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.PWD0.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.PWD0.Image = ((System.Drawing.Image)(resources.GetObject("PWD0.Image")));
-            this.PWD0.Location = new System.Drawing.Point(0, 45);
-            this.PWD0.Name = "PWD0";
-            this.PWD0.Size = new System.Drawing.Size(175, 45);
-            this.PWD0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PWD0.TabIndex = 109;
-            this.PWD0.TabStop = false;
-            // 
-            // usermess0
-            // 
-            this.usermess0.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.usermess0.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.usermess0.Image = ((System.Drawing.Image)(resources.GetObject("usermess0.Image")));
-            this.usermess0.Location = new System.Drawing.Point(0, 0);
-            this.usermess0.Name = "usermess0";
-            this.usermess0.Size = new System.Drawing.Size(175, 45);
-            this.usermess0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.usermess0.TabIndex = 108;
-            this.usermess0.TabStop = false;
-            // 
-            // usermess1
-            // 
-            this.usermess1.BackColor = System.Drawing.SystemColors.Menu;
-            this.usermess1.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.usermess1.Image = ((System.Drawing.Image)(resources.GetObject("usermess1.Image")));
-            this.usermess1.Location = new System.Drawing.Point(0, 0);
-            this.usermess1.Name = "usermess1";
-            this.usermess1.Size = new System.Drawing.Size(175, 45);
-            this.usermess1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.usermess1.TabIndex = 110;
-            this.usermess1.TabStop = false;
-            // 
-            // PWD1
-            // 
-            this.PWD1.BackColor = System.Drawing.SystemColors.Menu;
-            this.PWD1.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.PWD1.Image = ((System.Drawing.Image)(resources.GetObject("PWD1.Image")));
-            this.PWD1.Location = new System.Drawing.Point(0, 45);
-            this.PWD1.Name = "PWD1";
-            this.PWD1.Size = new System.Drawing.Size(175, 45);
-            this.PWD1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PWD1.TabIndex = 111;
-            this.PWD1.TabStop = false;
-            // 
             // includingPanel
             // 
             this.includingPanel.BackColor = System.Drawing.SystemColors.Menu;
-            this.includingPanel.Controls.Add(this.suggest0);
             this.includingPanel.Controls.Add(this.help0);
+            this.includingPanel.Controls.Add(this.suggest0);
             this.includingPanel.Controls.Add(this.about0);
             this.includingPanel.Controls.Add(this.help1);
             this.includingPanel.Controls.Add(this.suggest1);
             this.includingPanel.Controls.Add(this.about1);
-            this.includingPanel.Location = new System.Drawing.Point(200, 300);
+            this.includingPanel.Location = new System.Drawing.Point(200, 240);
             this.includingPanel.Name = "includingPanel";
             this.includingPanel.Size = new System.Drawing.Size(175, 135);
             this.includingPanel.TabIndex = 137;
-            // 
-            // suggest0
-            // 
-            this.suggest0.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.suggest0.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.suggest0.Image = ((System.Drawing.Image)(resources.GetObject("suggest0.Image")));
-            this.suggest0.Location = new System.Drawing.Point(0, 45);
-            this.suggest0.Name = "suggest0";
-            this.suggest0.Size = new System.Drawing.Size(175, 45);
-            this.suggest0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.suggest0.TabIndex = 5;
-            this.suggest0.TabStop = false;
             // 
             // help0
             // 
@@ -2490,6 +1325,18 @@
             this.help0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.help0.TabIndex = 6;
             this.help0.TabStop = false;
+            // 
+            // suggest0
+            // 
+            this.suggest0.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.suggest0.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.suggest0.Image = ((System.Drawing.Image)(resources.GetObject("suggest0.Image")));
+            this.suggest0.Location = new System.Drawing.Point(0, 45);
+            this.suggest0.Name = "suggest0";
+            this.suggest0.Size = new System.Drawing.Size(175, 45);
+            this.suggest0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.suggest0.TabIndex = 5;
+            this.suggest0.TabStop = false;
             // 
             // about0
             // 
@@ -2549,14 +1396,996 @@
             // 
             this.OpenDlg.FileName = "OpenDlg";
             // 
+            // adminPanel
+            // 
+            this.adminPanel.Controls.Add(this.Label68);
+            this.adminPanel.Controls.Add(this.adminremarkTextBox);
+            this.adminPanel.Controls.Add(this.Label67);
+            this.adminPanel.Controls.Add(this.kindTextBox);
+            this.adminPanel.Controls.Add(this.修改LinkLabel);
+            this.adminPanel.Controls.Add(this.modifyPanel);
+            this.adminPanel.Controls.Add(this.复位LinkLabel);
+            this.adminPanel.Controls.Add(this.PictureBox4);
+            this.adminPanel.Controls.Add(this.Label18);
+            this.adminPanel.Controls.Add(this.Label21);
+            this.adminPanel.Controls.Add(this.Label16);
+            this.adminPanel.Controls.Add(this.ComboBox2);
+            this.adminPanel.Controls.Add(this.openButton);
+            this.adminPanel.Controls.Add(this.ComboBox1);
+            this.adminPanel.Controls.Add(this.updateButton);
+            this.adminPanel.Controls.Add(this.TextBox2);
+            this.adminPanel.Controls.Add(this.Label15);
+            this.adminPanel.Controls.Add(this.TextBox1);
+            this.adminPanel.Controls.Add(this.Label14);
+            this.adminPanel.Controls.Add(this.Label20);
+            this.adminPanel.Controls.Add(this.Label13);
+            this.adminPanel.Controls.Add(this.Label4);
+            this.adminPanel.Controls.Add(this.Label5);
+            this.adminPanel.Controls.Add(this.Label3);
+            this.adminPanel.Controls.Add(this.Label6);
+            this.adminPanel.Controls.Add(this.Label1);
+            this.adminPanel.Controls.Add(this.Label7);
+            this.adminPanel.Controls.Add(this.TextBox12);
+            this.adminPanel.Controls.Add(this.Label8);
+            this.adminPanel.Controls.Add(this.Label19);
+            this.adminPanel.Controls.Add(this.Label9);
+            this.adminPanel.Controls.Add(this.TextBox11);
+            this.adminPanel.Controls.Add(this.Label10);
+            this.adminPanel.Controls.Add(this.Label17);
+            this.adminPanel.Controls.Add(this.Label11);
+            this.adminPanel.Controls.Add(this.TextBox10);
+            this.adminPanel.Controls.Add(this.TextBox8);
+            this.adminPanel.Controls.Add(this.TextBox6);
+            this.adminPanel.Controls.Add(this.TextBox7);
+            this.adminPanel.Controls.Add(this.TextBox5);
+            this.adminPanel.Controls.Add(this.TextBox9);
+            this.adminPanel.Controls.Add(this.TextBox4);
+            this.adminPanel.Controls.Add(this.TextBox3);
+            this.adminPanel.Location = new System.Drawing.Point(200, 0);
+            this.adminPanel.Name = "adminPanel";
+            this.adminPanel.Size = new System.Drawing.Size(1060, 608);
+            this.adminPanel.TabIndex = 139;
+            // 
+            // Label68
+            // 
+            this.Label68.AutoSize = true;
+            this.Label68.Location = new System.Drawing.Point(508, 545);
+            this.Label68.Name = "Label68";
+            this.Label68.Size = new System.Drawing.Size(44, 18);
+            this.Label68.TabIndex = 112;
+            this.Label68.Text = "备注";
+            // 
+            // adminremarkTextBox
+            // 
+            this.adminremarkTextBox.Location = new System.Drawing.Point(593, 540);
+            this.adminremarkTextBox.Name = "adminremarkTextBox";
+            this.adminremarkTextBox.Size = new System.Drawing.Size(176, 28);
+            this.adminremarkTextBox.TabIndex = 37;
+            // 
+            // Label67
+            // 
+            this.Label67.AutoSize = true;
+            this.Label67.Location = new System.Drawing.Point(508, 405);
+            this.Label67.Name = "Label67";
+            this.Label67.Size = new System.Drawing.Size(80, 18);
+            this.Label67.TabIndex = 110;
+            this.Label67.Text = "货物类型";
+            // 
+            // kindTextBox
+            // 
+            this.kindTextBox.Location = new System.Drawing.Point(593, 400);
+            this.kindTextBox.Name = "kindTextBox";
+            this.kindTextBox.Size = new System.Drawing.Size(176, 28);
+            this.kindTextBox.TabIndex = 33;
+            // 
+            // 修改LinkLabel
+            // 
+            this.修改LinkLabel.AutoSize = true;
+            this.修改LinkLabel.Location = new System.Drawing.Point(264, 512);
+            this.修改LinkLabel.Name = "修改LinkLabel";
+            this.修改LinkLabel.Size = new System.Drawing.Size(44, 18);
+            this.修改LinkLabel.TabIndex = 38;
+            this.修改LinkLabel.TabStop = true;
+            this.修改LinkLabel.Text = "修改";
+            // 
+            // modifyPanel
+            // 
+            this.modifyPanel.BackColor = System.Drawing.SystemColors.Control;
+            this.modifyPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.modifyPanel.Controls.Add(this.Cancel);
+            this.modifyPanel.Controls.Add(this.OK);
+            this.modifyPanel.Controls.Add(this.modifyTextBox);
+            this.modifyPanel.Controls.Add(this.Label52);
+            this.modifyPanel.Location = new System.Drawing.Point(816, 266);
+            this.modifyPanel.Name = "modifyPanel";
+            this.modifyPanel.Size = new System.Drawing.Size(200, 215);
+            this.modifyPanel.TabIndex = 107;
+            this.modifyPanel.Visible = false;
+            // 
+            // Cancel
+            // 
+            this.Cancel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Cancel.BackColor = System.Drawing.Color.Transparent;
+            this.Cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.Cancel.Location = new System.Drawing.Point(58, 150);
+            this.Cancel.Name = "Cancel";
+            this.Cancel.Size = new System.Drawing.Size(88, 31);
+            this.Cancel.TabIndex = 43;
+            this.Cancel.Text = "取消";
+            this.Cancel.UseVisualStyleBackColor = false;
+            // 
+            // OK
+            // 
+            this.OK.BackColor = System.Drawing.Color.Transparent;
+            this.OK.Location = new System.Drawing.Point(58, 111);
+            this.OK.Name = "OK";
+            this.OK.Size = new System.Drawing.Size(90, 33);
+            this.OK.TabIndex = 42;
+            this.OK.Text = "确定";
+            this.OK.UseVisualStyleBackColor = false;
+            // 
+            // modifyTextBox
+            // 
+            this.modifyTextBox.Location = new System.Drawing.Point(71, 68);
+            this.modifyTextBox.Name = "modifyTextBox";
+            this.modifyTextBox.Size = new System.Drawing.Size(112, 28);
+            this.modifyTextBox.TabIndex = 41;
+            // 
+            // Label52
+            // 
+            this.Label52.AutoSize = true;
+            this.Label52.Location = new System.Drawing.Point(6, 42);
+            this.Label52.Name = "Label52";
+            this.Label52.Size = new System.Drawing.Size(116, 54);
+            this.Label52.TabIndex = 7;
+            this.Label52.Text = "请输入正确的\r\n\r\n车牌号";
+            // 
+            // 复位LinkLabel
+            // 
+            this.复位LinkLabel.AutoSize = true;
+            this.复位LinkLabel.Location = new System.Drawing.Point(324, 512);
+            this.复位LinkLabel.Name = "复位LinkLabel";
+            this.复位LinkLabel.Size = new System.Drawing.Size(44, 18);
+            this.复位LinkLabel.TabIndex = 39;
+            this.复位LinkLabel.TabStop = true;
+            this.复位LinkLabel.Text = "复位";
+            // 
+            // PictureBox4
+            // 
+            this.PictureBox4.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.PictureBox4.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.PictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox4.Image")));
+            this.PictureBox4.Location = new System.Drawing.Point(0, 0);
+            this.PictureBox4.Name = "PictureBox4";
+            this.PictureBox4.Size = new System.Drawing.Size(1060, 60);
+            this.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PictureBox4.TabIndex = 105;
+            this.PictureBox4.TabStop = false;
+            // 
+            // Label18
+            // 
+            this.Label18.AutoSize = true;
+            this.Label18.Location = new System.Drawing.Point(248, 210);
+            this.Label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label18.Name = "Label18";
+            this.Label18.Size = new System.Drawing.Size(62, 18);
+            this.Label18.TabIndex = 103;
+            this.Label18.Text = "波特率";
+            // 
+            // Label21
+            // 
+            this.Label21.AutoSize = true;
+            this.Label21.Location = new System.Drawing.Point(248, 170);
+            this.Label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label21.Name = "Label21";
+            this.Label21.Size = new System.Drawing.Size(44, 18);
+            this.Label21.TabIndex = 102;
+            this.Label21.Text = "端口";
+            // 
+            // Label16
+            // 
+            this.Label16.AutoSize = true;
+            this.Label16.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Label16.Location = new System.Drawing.Point(508, 255);
+            this.Label16.Name = "Label16";
+            this.Label16.Size = new System.Drawing.Size(110, 31);
+            this.Label16.TabIndex = 71;
+            this.Label16.Text = "称量信息";
+            // 
+            // ComboBox2
+            // 
+            this.ComboBox2.FormattingEnabled = true;
+            this.ComboBox2.Items.AddRange(new object[] {
+            "110",
+            "300",
+            "600",
+            "1200",
+            "2400",
+            "4800",
+            "9600",
+            "19200",
+            "38400",
+            "56000",
+            "57600",
+            "115200"});
+            this.ComboBox2.Location = new System.Drawing.Point(333, 205);
+            this.ComboBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.ComboBox2.Name = "ComboBox2";
+            this.ComboBox2.Size = new System.Drawing.Size(180, 26);
+            this.ComboBox2.TabIndex = 22;
+            // 
+            // openButton
+            // 
+            this.openButton.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.openButton.Location = new System.Drawing.Point(593, 180);
+            this.openButton.Name = "openButton";
+            this.openButton.Size = new System.Drawing.Size(94, 33);
+            this.openButton.TabIndex = 23;
+            this.openButton.Text = "启动(&S)";
+            this.openButton.UseVisualStyleBackColor = true;
+            // 
+            // ComboBox1
+            // 
+            this.ComboBox1.FormattingEnabled = true;
+            this.ComboBox1.Location = new System.Drawing.Point(333, 166);
+            this.ComboBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.ComboBox1.Name = "ComboBox1";
+            this.ComboBox1.Size = new System.Drawing.Size(180, 26);
+            this.ComboBox1.TabIndex = 21;
+            // 
+            // updateButton
+            // 
+            this.updateButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.updateButton.Enabled = false;
+            this.updateButton.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.updateButton.Location = new System.Drawing.Point(389, 510);
+            this.updateButton.Name = "updateButton";
+            this.updateButton.Size = new System.Drawing.Size(94, 33);
+            this.updateButton.TabIndex = 40;
+            this.updateButton.Text = "上传(&U)";
+            this.updateButton.UseVisualStyleBackColor = true;
+            // 
+            // TextBox2
+            // 
+            this.TextBox2.Enabled = false;
+            this.TextBox2.Location = new System.Drawing.Point(333, 330);
+            this.TextBox2.Name = "TextBox2";
+            this.TextBox2.Size = new System.Drawing.Size(150, 28);
+            this.TextBox2.TabIndex = 25;
+            // 
+            // Label15
+            // 
+            this.Label15.AutoSize = true;
+            this.Label15.Location = new System.Drawing.Point(248, 440);
+            this.Label15.Name = "Label15";
+            this.Label15.Size = new System.Drawing.Size(80, 18);
+            this.Label15.TabIndex = 72;
+            this.Label15.Text = "驾照类型";
+            // 
+            // TextBox1
+            // 
+            this.TextBox1.Enabled = false;
+            this.TextBox1.Location = new System.Drawing.Point(333, 295);
+            this.TextBox1.Name = "TextBox1";
+            this.TextBox1.Size = new System.Drawing.Size(150, 28);
+            this.TextBox1.TabIndex = 24;
+            // 
+            // Label14
+            // 
+            this.Label14.AutoSize = true;
+            this.Label14.Location = new System.Drawing.Point(248, 475);
+            this.Label14.Name = "Label14";
+            this.Label14.Size = new System.Drawing.Size(80, 18);
+            this.Label14.TabIndex = 73;
+            this.Label14.Text = "联系电话";
+            // 
+            // Label20
+            // 
+            this.Label20.AutoSize = true;
+            this.Label20.Location = new System.Drawing.Point(770, 440);
+            this.Label20.Name = "Label20";
+            this.Label20.Size = new System.Drawing.Size(26, 18);
+            this.Label20.TabIndex = 97;
+            this.Label20.Text = "kg";
+            // 
+            // Label13
+            // 
+            this.Label13.AutoSize = true;
+            this.Label13.Location = new System.Drawing.Point(248, 405);
+            this.Label13.Name = "Label13";
+            this.Label13.Size = new System.Drawing.Size(44, 18);
+            this.Label13.TabIndex = 74;
+            this.Label13.Text = "部门";
+            // 
+            // Label4
+            // 
+            this.Label4.AutoSize = true;
+            this.Label4.Location = new System.Drawing.Point(770, 475);
+            this.Label4.Name = "Label4";
+            this.Label4.Size = new System.Drawing.Size(26, 18);
+            this.Label4.TabIndex = 96;
+            this.Label4.Text = "kg";
+            // 
+            // Label5
+            // 
+            this.Label5.AutoSize = true;
+            this.Label5.Location = new System.Drawing.Point(248, 370);
+            this.Label5.Name = "Label5";
+            this.Label5.Size = new System.Drawing.Size(80, 18);
+            this.Label5.TabIndex = 75;
+            this.Label5.Text = "出生日期";
+            // 
+            // Label3
+            // 
+            this.Label3.AutoSize = true;
+            this.Label3.Location = new System.Drawing.Point(770, 510);
+            this.Label3.Name = "Label3";
+            this.Label3.Size = new System.Drawing.Size(26, 18);
+            this.Label3.TabIndex = 95;
+            this.Label3.Text = "kg";
+            // 
+            // Label6
+            // 
+            this.Label6.AutoSize = true;
+            this.Label6.Location = new System.Drawing.Point(508, 335);
+            this.Label6.Name = "Label6";
+            this.Label6.Size = new System.Drawing.Size(80, 18);
+            this.Label6.TabIndex = 76;
+            this.Label6.Text = "汽车类型";
+            // 
+            // Label1
+            // 
+            this.Label1.AutoSize = true;
+            this.Label1.Location = new System.Drawing.Point(508, 370);
+            this.Label1.Name = "Label1";
+            this.Label1.Size = new System.Drawing.Size(80, 18);
+            this.Label1.TabIndex = 94;
+            this.Label1.Text = "称量时间";
+            // 
+            // Label7
+            // 
+            this.Label7.AutoSize = true;
+            this.Label7.Location = new System.Drawing.Point(248, 335);
+            this.Label7.Name = "Label7";
+            this.Label7.Size = new System.Drawing.Size(44, 18);
+            this.Label7.TabIndex = 77;
+            this.Label7.Text = "姓名";
+            // 
+            // TextBox12
+            // 
+            this.TextBox12.Enabled = false;
+            this.TextBox12.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.TextBox12.Location = new System.Drawing.Point(593, 505);
+            this.TextBox12.Name = "TextBox12";
+            this.TextBox12.Size = new System.Drawing.Size(176, 28);
+            this.TextBox12.TabIndex = 36;
+            // 
+            // Label8
+            // 
+            this.Label8.AutoSize = true;
+            this.Label8.Location = new System.Drawing.Point(248, 300);
+            this.Label8.Name = "Label8";
+            this.Label8.Size = new System.Drawing.Size(80, 18);
+            this.Label8.TabIndex = 78;
+            this.Label8.Text = "驾驶证号";
+            // 
+            // Label19
+            // 
+            this.Label19.AutoSize = true;
+            this.Label19.Location = new System.Drawing.Point(508, 440);
+            this.Label19.Name = "Label19";
+            this.Label19.Size = new System.Drawing.Size(80, 18);
+            this.Label19.TabIndex = 92;
+            this.Label19.Text = "车辆皮重";
+            // 
+            // Label9
+            // 
+            this.Label9.AutoSize = true;
+            this.Label9.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Label9.Location = new System.Drawing.Point(248, 255);
+            this.Label9.Name = "Label9";
+            this.Label9.Size = new System.Drawing.Size(110, 31);
+            this.Label9.TabIndex = 79;
+            this.Label9.Text = "司机信息";
+            // 
+            // TextBox11
+            // 
+            this.TextBox11.Enabled = false;
+            this.TextBox11.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.TextBox11.Location = new System.Drawing.Point(593, 470);
+            this.TextBox11.Name = "TextBox11";
+            this.TextBox11.Size = new System.Drawing.Size(176, 28);
+            this.TextBox11.TabIndex = 35;
+            // 
+            // Label10
+            // 
+            this.Label10.AutoSize = true;
+            this.Label10.Location = new System.Drawing.Point(508, 475);
+            this.Label10.Name = "Label10";
+            this.Label10.Size = new System.Drawing.Size(80, 18);
+            this.Label10.TabIndex = 80;
+            this.Label10.Text = "车辆毛重";
+            // 
+            // Label17
+            // 
+            this.Label17.AutoSize = true;
+            this.Label17.Location = new System.Drawing.Point(508, 510);
+            this.Label17.Name = "Label17";
+            this.Label17.Size = new System.Drawing.Size(80, 18);
+            this.Label17.TabIndex = 90;
+            this.Label17.Text = "货物净重";
+            // 
+            // Label11
+            // 
+            this.Label11.AutoSize = true;
+            this.Label11.Location = new System.Drawing.Point(508, 300);
+            this.Label11.Name = "Label11";
+            this.Label11.Size = new System.Drawing.Size(62, 18);
+            this.Label11.TabIndex = 81;
+            this.Label11.Text = "车牌号";
+            // 
+            // TextBox10
+            // 
+            this.TextBox10.Enabled = false;
+            this.TextBox10.Location = new System.Drawing.Point(593, 435);
+            this.TextBox10.Name = "TextBox10";
+            this.TextBox10.Size = new System.Drawing.Size(176, 28);
+            this.TextBox10.TabIndex = 34;
+            // 
+            // TextBox8
+            // 
+            this.TextBox8.Enabled = false;
+            this.TextBox8.Location = new System.Drawing.Point(593, 330);
+            this.TextBox8.Name = "TextBox8";
+            this.TextBox8.Size = new System.Drawing.Size(176, 28);
+            this.TextBox8.TabIndex = 31;
+            // 
+            // TextBox6
+            // 
+            this.TextBox6.Enabled = false;
+            this.TextBox6.Location = new System.Drawing.Point(333, 470);
+            this.TextBox6.Name = "TextBox6";
+            this.TextBox6.Size = new System.Drawing.Size(150, 28);
+            this.TextBox6.TabIndex = 29;
+            // 
+            // TextBox7
+            // 
+            this.TextBox7.Enabled = false;
+            this.TextBox7.Location = new System.Drawing.Point(593, 295);
+            this.TextBox7.Name = "TextBox7";
+            this.TextBox7.Size = new System.Drawing.Size(176, 28);
+            this.TextBox7.TabIndex = 30;
+            // 
+            // TextBox5
+            // 
+            this.TextBox5.Enabled = false;
+            this.TextBox5.Location = new System.Drawing.Point(333, 435);
+            this.TextBox5.Name = "TextBox5";
+            this.TextBox5.Size = new System.Drawing.Size(150, 28);
+            this.TextBox5.TabIndex = 28;
+            // 
+            // TextBox9
+            // 
+            this.TextBox9.Enabled = false;
+            this.TextBox9.Location = new System.Drawing.Point(593, 365);
+            this.TextBox9.Name = "TextBox9";
+            this.TextBox9.Size = new System.Drawing.Size(176, 28);
+            this.TextBox9.TabIndex = 32;
+            // 
+            // TextBox4
+            // 
+            this.TextBox4.Enabled = false;
+            this.TextBox4.Location = new System.Drawing.Point(333, 400);
+            this.TextBox4.Name = "TextBox4";
+            this.TextBox4.Size = new System.Drawing.Size(150, 28);
+            this.TextBox4.TabIndex = 27;
+            // 
+            // TextBox3
+            // 
+            this.TextBox3.Enabled = false;
+            this.TextBox3.Location = new System.Drawing.Point(333, 365);
+            this.TextBox3.Name = "TextBox3";
+            this.TextBox3.Size = new System.Drawing.Size(150, 28);
+            this.TextBox3.TabIndex = 26;
+            // 
+            // backgroundPanel
+            // 
+            this.backgroundPanel.Controls.Add(this.htPictureBox);
+            this.backgroundPanel.Controls.Add(this.dielingWebBrowser);
+            this.backgroundPanel.Location = new System.Drawing.Point(200, 0);
+            this.backgroundPanel.Name = "backgroundPanel";
+            this.backgroundPanel.Size = new System.Drawing.Size(1060, 628);
+            this.backgroundPanel.TabIndex = 140;
+            this.backgroundPanel.Visible = false;
+            // 
+            // htPictureBox
+            // 
+            this.htPictureBox.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.htPictureBox.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.htPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("htPictureBox.Image")));
+            this.htPictureBox.Location = new System.Drawing.Point(0, 0);
+            this.htPictureBox.Name = "htPictureBox";
+            this.htPictureBox.Size = new System.Drawing.Size(1060, 60);
+            this.htPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.htPictureBox.TabIndex = 105;
+            this.htPictureBox.TabStop = false;
+            // 
+            // dielingWebBrowser
+            // 
+            this.dielingWebBrowser.Location = new System.Drawing.Point(0, 60);
+            this.dielingWebBrowser.MinimumSize = new System.Drawing.Size(20, 20);
+            this.dielingWebBrowser.Name = "dielingWebBrowser";
+            this.dielingWebBrowser.Size = new System.Drawing.Size(1060, 568);
+            this.dielingWebBrowser.TabIndex = 106;
+            this.dielingWebBrowser.Url = new System.Uri("http://vps.dieling.cc/qch/", System.UriKind.Absolute);
+            // 
+            // daddPanel
+            // 
+            this.daddPanel.Controls.Add(this.TextBox16);
+            this.daddPanel.Controls.Add(this.Label26);
+            this.daddPanel.Controls.Add(this.clearLinkLabel2);
+            this.daddPanel.Controls.Add(this.driverupdateButton);
+            this.daddPanel.Controls.Add(this.TextBox34);
+            this.daddPanel.Controls.Add(this.TextBox33);
+            this.daddPanel.Controls.Add(this.TextBox32);
+            this.daddPanel.Controls.Add(this.TextBox31);
+            this.daddPanel.Controls.Add(this.TextBox30);
+            this.daddPanel.Controls.Add(this.TextBox29);
+            this.daddPanel.Controls.Add(this.Label45);
+            this.daddPanel.Controls.Add(this.Label46);
+            this.daddPanel.Controls.Add(this.Label47);
+            this.daddPanel.Controls.Add(this.Label48);
+            this.daddPanel.Controls.Add(this.Label49);
+            this.daddPanel.Controls.Add(this.Label50);
+            this.daddPanel.Controls.Add(this.Label51);
+            this.daddPanel.Controls.Add(this.PictureBox8);
+            this.daddPanel.Location = new System.Drawing.Point(200, 0);
+            this.daddPanel.Name = "daddPanel";
+            this.daddPanel.Size = new System.Drawing.Size(1060, 481);
+            this.daddPanel.TabIndex = 141;
+            // 
+            // TextBox16
+            // 
+            this.TextBox16.Location = new System.Drawing.Point(474, 292);
+            this.TextBox16.Name = "TextBox16";
+            this.TextBox16.Size = new System.Drawing.Size(170, 28);
+            this.TextBox16.TabIndex = 95;
+            // 
+            // Label26
+            // 
+            this.Label26.AutoSize = true;
+            this.Label26.Location = new System.Drawing.Point(389, 297);
+            this.Label26.Name = "Label26";
+            this.Label26.Size = new System.Drawing.Size(80, 18);
+            this.Label26.TabIndex = 123;
+            this.Label26.Text = "驾驶车辆";
+            // 
+            // clearLinkLabel2
+            // 
+            this.clearLinkLabel2.AutoSize = true;
+            this.clearLinkLabel2.Location = new System.Drawing.Point(471, 402);
+            this.clearLinkLabel2.Name = "clearLinkLabel2";
+            this.clearLinkLabel2.Size = new System.Drawing.Size(80, 18);
+            this.clearLinkLabel2.TabIndex = 98;
+            this.clearLinkLabel2.TabStop = true;
+            this.clearLinkLabel2.Text = "清除数据";
+            // 
+            // driverupdateButton
+            // 
+            this.driverupdateButton.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.driverupdateButton.Location = new System.Drawing.Point(460, 428);
+            this.driverupdateButton.Name = "driverupdateButton";
+            this.driverupdateButton.Size = new System.Drawing.Size(94, 33);
+            this.driverupdateButton.TabIndex = 99;
+            this.driverupdateButton.Text = "上传";
+            this.driverupdateButton.UseVisualStyleBackColor = true;
+            // 
+            // TextBox34
+            // 
+            this.TextBox34.Location = new System.Drawing.Point(474, 362);
+            this.TextBox34.Name = "TextBox34";
+            this.TextBox34.Size = new System.Drawing.Size(170, 28);
+            this.TextBox34.TabIndex = 97;
+            // 
+            // TextBox33
+            // 
+            this.TextBox33.Location = new System.Drawing.Point(474, 327);
+            this.TextBox33.Name = "TextBox33";
+            this.TextBox33.Size = new System.Drawing.Size(170, 28);
+            this.TextBox33.TabIndex = 96;
+            // 
+            // TextBox32
+            // 
+            this.TextBox32.Location = new System.Drawing.Point(474, 257);
+            this.TextBox32.Name = "TextBox32";
+            this.TextBox32.Size = new System.Drawing.Size(170, 28);
+            this.TextBox32.TabIndex = 94;
+            // 
+            // TextBox31
+            // 
+            this.TextBox31.Location = new System.Drawing.Point(474, 222);
+            this.TextBox31.Name = "TextBox31";
+            this.TextBox31.Size = new System.Drawing.Size(170, 28);
+            this.TextBox31.TabIndex = 93;
+            // 
+            // TextBox30
+            // 
+            this.TextBox30.Location = new System.Drawing.Point(474, 187);
+            this.TextBox30.Name = "TextBox30";
+            this.TextBox30.Size = new System.Drawing.Size(170, 28);
+            this.TextBox30.TabIndex = 92;
+            // 
+            // TextBox29
+            // 
+            this.TextBox29.Location = new System.Drawing.Point(474, 152);
+            this.TextBox29.MaxLength = 18;
+            this.TextBox29.Multiline = true;
+            this.TextBox29.Name = "TextBox29";
+            this.TextBox29.Size = new System.Drawing.Size(170, 28);
+            this.TextBox29.TabIndex = 91;
+            // 
+            // Label45
+            // 
+            this.Label45.AutoSize = true;
+            this.Label45.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Label45.Location = new System.Drawing.Point(389, 112);
+            this.Label45.Name = "Label45";
+            this.Label45.Size = new System.Drawing.Size(137, 39);
+            this.Label45.TabIndex = 120;
+            this.Label45.Text = "司机信息";
+            // 
+            // Label46
+            // 
+            this.Label46.AutoSize = true;
+            this.Label46.Location = new System.Drawing.Point(389, 157);
+            this.Label46.Name = "Label46";
+            this.Label46.Size = new System.Drawing.Size(80, 18);
+            this.Label46.TabIndex = 119;
+            this.Label46.Text = "驾驶证号";
+            // 
+            // Label47
+            // 
+            this.Label47.AutoSize = true;
+            this.Label47.Location = new System.Drawing.Point(389, 192);
+            this.Label47.Name = "Label47";
+            this.Label47.Size = new System.Drawing.Size(44, 18);
+            this.Label47.TabIndex = 118;
+            this.Label47.Text = "姓名";
+            // 
+            // Label48
+            // 
+            this.Label48.AutoSize = true;
+            this.Label48.Location = new System.Drawing.Point(389, 227);
+            this.Label48.Name = "Label48";
+            this.Label48.Size = new System.Drawing.Size(80, 18);
+            this.Label48.TabIndex = 117;
+            this.Label48.Text = "出生日期";
+            // 
+            // Label49
+            // 
+            this.Label49.AutoSize = true;
+            this.Label49.Location = new System.Drawing.Point(389, 262);
+            this.Label49.Name = "Label49";
+            this.Label49.Size = new System.Drawing.Size(80, 18);
+            this.Label49.TabIndex = 116;
+            this.Label49.Text = "驾照类型";
+            // 
+            // Label50
+            // 
+            this.Label50.AutoSize = true;
+            this.Label50.Location = new System.Drawing.Point(389, 367);
+            this.Label50.Name = "Label50";
+            this.Label50.Size = new System.Drawing.Size(80, 18);
+            this.Label50.TabIndex = 115;
+            this.Label50.Text = "联系电话";
+            // 
+            // Label51
+            // 
+            this.Label51.AutoSize = true;
+            this.Label51.Location = new System.Drawing.Point(389, 332);
+            this.Label51.Name = "Label51";
+            this.Label51.Size = new System.Drawing.Size(44, 18);
+            this.Label51.TabIndex = 114;
+            this.Label51.Text = "部门";
+            // 
+            // PictureBox8
+            // 
+            this.PictureBox8.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.PictureBox8.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.PictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox8.Image")));
+            this.PictureBox8.Location = new System.Drawing.Point(0, 0);
+            this.PictureBox8.Name = "PictureBox8";
+            this.PictureBox8.Size = new System.Drawing.Size(1060, 60);
+            this.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PictureBox8.TabIndex = 105;
+            this.PictureBox8.TabStop = false;
+            // 
+            // aboutPanel
+            // 
+            this.aboutPanel.Controls.Add(this.版本信息Label);
+            this.aboutPanel.Controls.Add(this.人员姓名Label);
+            this.aboutPanel.Controls.Add(this.开发人员Label);
+            this.aboutPanel.Controls.Add(this.PictureBox15);
+            this.aboutPanel.Controls.Add(this.开发人员PictureBox);
+            this.aboutPanel.Controls.Add(this.PictureBox13);
+            this.aboutPanel.Location = new System.Drawing.Point(200, 0);
+            this.aboutPanel.Name = "aboutPanel";
+            this.aboutPanel.Size = new System.Drawing.Size(1060, 478);
+            this.aboutPanel.TabIndex = 142;
+            // 
+            // 版本信息Label
+            // 
+            this.版本信息Label.AutoSize = true;
+            this.版本信息Label.Location = new System.Drawing.Point(110, 385);
+            this.版本信息Label.Name = "版本信息Label";
+            this.版本信息Label.Size = new System.Drawing.Size(152, 18);
+            this.版本信息Label.TabIndex = 110;
+            this.版本信息Label.Text = "3.0.160430.2BETA";
+            // 
+            // 人员姓名Label
+            // 
+            this.人员姓名Label.AutoSize = true;
+            this.人员姓名Label.Location = new System.Drawing.Point(480, 190);
+            this.人员姓名Label.Name = "人员姓名Label";
+            this.人员姓名Label.Size = new System.Drawing.Size(62, 54);
+            this.人员姓名Label.TabIndex = 109;
+            this.人员姓名Label.Text = "颜月生\r\n古月安\r\n沈雅";
+            // 
+            // 开发人员Label
+            // 
+            this.开发人员Label.AutoSize = true;
+            this.开发人员Label.Location = new System.Drawing.Point(110, 190);
+            this.开发人员Label.Name = "开发人员Label";
+            this.开发人员Label.Size = new System.Drawing.Size(368, 72);
+            this.开发人员Label.TabIndex = 108;
+            this.开发人员Label.Text = "汽车衡智能称重系统硬件平台的设计：\r\n汽车衡智能称重系统数据采集的设计与实现：\r\n汽车衡智能称重信息管理系统的设计与实现：\r\n\r\n";
+            // 
+            // PictureBox15
+            // 
+            this.PictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox15.Image")));
+            this.PictureBox15.Location = new System.Drawing.Point(110, 310);
+            this.PictureBox15.Name = "PictureBox15";
+            this.PictureBox15.Size = new System.Drawing.Size(216, 50);
+            this.PictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PictureBox15.TabIndex = 107;
+            this.PictureBox15.TabStop = false;
+            // 
+            // 开发人员PictureBox
+            // 
+            this.开发人员PictureBox.Image = ((System.Drawing.Image)(resources.GetObject("开发人员PictureBox.Image")));
+            this.开发人员PictureBox.Location = new System.Drawing.Point(110, 125);
+            this.开发人员PictureBox.Name = "开发人员PictureBox";
+            this.开发人员PictureBox.Size = new System.Drawing.Size(216, 50);
+            this.开发人员PictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.开发人员PictureBox.TabIndex = 106;
+            this.开发人员PictureBox.TabStop = false;
+            // 
+            // PictureBox13
+            // 
+            this.PictureBox13.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.PictureBox13.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.PictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox13.Image")));
+            this.PictureBox13.Location = new System.Drawing.Point(0, 0);
+            this.PictureBox13.Name = "PictureBox13";
+            this.PictureBox13.Size = new System.Drawing.Size(1060, 60);
+            this.PictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PictureBox13.TabIndex = 105;
+            this.PictureBox13.TabStop = false;
+            // 
+            // suggestPanel
+            // 
+            this.suggestPanel.Controls.Add(this.suggestLabel);
+            this.suggestPanel.Controls.Add(this.suggestTextBox);
+            this.suggestPanel.Controls.Add(this.suggestButton);
+            this.suggestPanel.Controls.Add(this.PictureBox12);
+            this.suggestPanel.Location = new System.Drawing.Point(200, 0);
+            this.suggestPanel.Name = "suggestPanel";
+            this.suggestPanel.Size = new System.Drawing.Size(1060, 493);
+            this.suggestPanel.TabIndex = 143;
+            // 
+            // suggestLabel
+            // 
+            this.suggestLabel.AutoSize = true;
+            this.suggestLabel.Location = new System.Drawing.Point(280, 165);
+            this.suggestLabel.Name = "suggestLabel";
+            this.suggestLabel.Size = new System.Drawing.Size(44, 18);
+            this.suggestLabel.TabIndex = 110;
+            this.suggestLabel.Text = "意见";
+            // 
+            // suggestTextBox
+            // 
+            this.suggestTextBox.Location = new System.Drawing.Point(280, 195);
+            this.suggestTextBox.Multiline = true;
+            this.suggestTextBox.Name = "suggestTextBox";
+            this.suggestTextBox.Size = new System.Drawing.Size(500, 200);
+            this.suggestTextBox.TabIndex = 101;
+            // 
+            // suggestButton
+            // 
+            this.suggestButton.Location = new System.Drawing.Point(483, 428);
+            this.suggestButton.Name = "suggestButton";
+            this.suggestButton.Size = new System.Drawing.Size(94, 33);
+            this.suggestButton.TabIndex = 102;
+            this.suggestButton.Text = "发送";
+            this.suggestButton.UseVisualStyleBackColor = true;
+            // 
+            // PictureBox12
+            // 
+            this.PictureBox12.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.PictureBox12.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.PictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox12.Image")));
+            this.PictureBox12.Location = new System.Drawing.Point(0, 0);
+            this.PictureBox12.Name = "PictureBox12";
+            this.PictureBox12.Size = new System.Drawing.Size(1060, 60);
+            this.PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PictureBox12.TabIndex = 105;
+            this.PictureBox12.TabStop = false;
+            // 
+            // helpPanel
+            // 
+            this.helpPanel.Controls.Add(this.includingLabel);
+            this.helpPanel.Controls.Add(this.PictureBox11);
+            this.helpPanel.Location = new System.Drawing.Point(200, 0);
+            this.helpPanel.Name = "helpPanel";
+            this.helpPanel.Size = new System.Drawing.Size(1060, 628);
+            this.helpPanel.TabIndex = 144;
+            // 
+            // includingLabel
+            // 
+            this.includingLabel.AutoSize = true;
+            this.includingLabel.Location = new System.Drawing.Point(150, 120);
+            this.includingLabel.Name = "includingLabel";
+            this.includingLabel.Size = new System.Drawing.Size(764, 432);
+            this.includingLabel.TabIndex = 106;
+            this.includingLabel.Text = resources.GetString("includingLabel.Text");
+            // 
+            // PictureBox11
+            // 
+            this.PictureBox11.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.PictureBox11.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.PictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox11.Image")));
+            this.PictureBox11.Location = new System.Drawing.Point(0, 0);
+            this.PictureBox11.Name = "PictureBox11";
+            this.PictureBox11.Size = new System.Drawing.Size(1060, 60);
+            this.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PictureBox11.TabIndex = 105;
+            this.PictureBox11.TabStop = false;
+            // 
+            // wPanel
+            // 
+            this.wPanel.Controls.Add(this.selectButton);
+            this.wPanel.Controls.Add(this.ListView1);
+            this.wPanel.Controls.Add(this.PictureBox3);
+            this.wPanel.Location = new System.Drawing.Point(200, 0);
+            this.wPanel.Name = "wPanel";
+            this.wPanel.Size = new System.Drawing.Size(1060, 560);
+            this.wPanel.TabIndex = 145;
+            // 
+            // selectButton
+            // 
+            this.selectButton.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.selectButton.Location = new System.Drawing.Point(483, 512);
+            this.selectButton.Name = "selectButton";
+            this.selectButton.Size = new System.Drawing.Size(94, 33);
+            this.selectButton.TabIndex = 51;
+            this.selectButton.Text = "查询";
+            this.selectButton.UseVisualStyleBackColor = true;
+            // 
+            // ListView1
+            // 
+            this.ListView1.BackgroundImageTiled = true;
+            this.ListView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.ColumnHeader1,
+            this.ColumnHeader2,
+            this.ColumnHeader3,
+            this.ColumnHeader4,
+            this.ColumnHeader5,
+            this.ColumnHeader6,
+            this.ColumnHeader7});
+            this.ListView1.FullRowSelect = true;
+            this.ListView1.GridLines = true;
+            this.ListView1.Location = new System.Drawing.Point(150, 126);
+            this.ListView1.MinimumSize = new System.Drawing.Size(4, 4);
+            this.ListView1.Name = "ListView1";
+            this.ListView1.Size = new System.Drawing.Size(760, 372);
+            this.ListView1.TabIndex = 106;
+            this.ListView1.UseCompatibleStateImageBehavior = false;
+            this.ListView1.View = System.Windows.Forms.View.Details;
+            // 
+            // ColumnHeader1
+            // 
+            this.ColumnHeader1.Text = "编号";
+            this.ColumnHeader1.Width = 40;
+            // 
+            // ColumnHeader2
+            // 
+            this.ColumnHeader2.Text = "车牌号";
+            this.ColumnHeader2.Width = 70;
+            // 
+            // ColumnHeader3
+            // 
+            this.ColumnHeader3.Text = "管理账户";
+            // 
+            // ColumnHeader4
+            // 
+            this.ColumnHeader4.Text = "货物净重(kg)";
+            this.ColumnHeader4.Width = 90;
+            // 
+            // ColumnHeader5
+            // 
+            this.ColumnHeader5.Text = "货物类型";
+            // 
+            // ColumnHeader6
+            // 
+            this.ColumnHeader6.Text = "称量时间";
+            this.ColumnHeader6.Width = 120;
+            // 
+            // ColumnHeader7
+            // 
+            this.ColumnHeader7.Text = "备注";
+            // 
+            // PictureBox3
+            // 
+            this.PictureBox3.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.PictureBox3.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.PictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox3.Image")));
+            this.PictureBox3.Location = new System.Drawing.Point(0, 0);
+            this.PictureBox3.Name = "PictureBox3";
+            this.PictureBox3.Size = new System.Drawing.Size(1060, 60);
+            this.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PictureBox3.TabIndex = 105;
+            this.PictureBox3.TabStop = false;
+            // 
+            // Label25
+            // 
+            this.Label25.AutoSize = true;
+            this.Label25.Location = new System.Drawing.Point(12, 607);
+            this.Label25.Name = "Label25";
+            this.Label25.Size = new System.Drawing.Size(62, 18);
+            this.Label25.TabIndex = 70;
+            this.Label25.Text = "账户：";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Location = new System.Drawing.Point(88, 607);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(44, 18);
+            this.label36.TabIndex = 69;
+            this.label36.Text = "账户";
+            // 
             // downPanel
             // 
             this.downPanel.BackColor = System.Drawing.Color.Transparent;
+            this.downPanel.Controls.Add(this.backgroundLinkLabel);
+            this.downPanel.Controls.Add(this.signoutLinkLabel);
             this.downPanel.Controls.Add(this.time);
             this.downPanel.Location = new System.Drawing.Point(0, 628);
             this.downPanel.Name = "downPanel";
             this.downPanel.Size = new System.Drawing.Size(1280, 38);
-            this.downPanel.TabIndex = 138;
+            this.downPanel.TabIndex = 146;
+            // 
+            // backgroundLinkLabel
+            // 
+            this.backgroundLinkLabel.AutoSize = true;
+            this.backgroundLinkLabel.Location = new System.Drawing.Point(920, 10);
+            this.backgroundLinkLabel.Name = "backgroundLinkLabel";
+            this.backgroundLinkLabel.Size = new System.Drawing.Size(80, 18);
+            this.backgroundLinkLabel.TabIndex = 111;
+            this.backgroundLinkLabel.TabStop = true;
+            this.backgroundLinkLabel.Text = "管理后台";
+            // 
+            // signoutLinkLabel
+            // 
+            this.signoutLinkLabel.AutoSize = true;
+            this.signoutLinkLabel.Location = new System.Drawing.Point(1010, 10);
+            this.signoutLinkLabel.Name = "signoutLinkLabel";
+            this.signoutLinkLabel.Size = new System.Drawing.Size(44, 18);
+            this.signoutLinkLabel.TabIndex = 112;
+            this.signoutLinkLabel.TabStop = true;
+            this.signoutLinkLabel.Text = "注销";
             // 
             // time
             // 
@@ -2564,9 +2393,9 @@
             this.time.BackColor = System.Drawing.Color.Transparent;
             this.time.Location = new System.Drawing.Point(1070, 10);
             this.time.Name = "time";
-            this.time.Size = new System.Drawing.Size(62, 18);
+            this.time.Size = new System.Drawing.Size(44, 18);
             this.time.TabIndex = 13;
-            this.time.Text = "Label4";
+            this.time.Text = "时间";
             // 
             // 汽车衡智能称重系统
             // 
@@ -2576,18 +2405,16 @@
             this.Controls.Add(this.menuPanel);
             this.Controls.Add(this.downPanel);
             this.Controls.Add(this.includingPanel);
-            this.Controls.Add(this.userPanel);
             this.Controls.Add(this.addPanel);
             this.Controls.Add(this.messPanel);
-            this.Controls.Add(this.adminPanel);
-            this.Controls.Add(this.loginPanel);
-            this.Controls.Add(this.newuserPanel);
             this.Controls.Add(this.aboutPanel);
             this.Controls.Add(this.suggestPanel);
             this.Controls.Add(this.helpPanel);
             this.Controls.Add(this.wPanel);
-            this.Controls.Add(this.pwdPanel);
-            this.Controls.Add(this.usermessPanel);
+            this.Controls.Add(this.loginPanel);
+            this.Controls.Add(this.newuserPanel);
+            this.Controls.Add(this.adminPanel);
+            this.Controls.Add(this.backgroundPanel);
             this.Controls.Add(this.dmPanel);
             this.Controls.Add(this.cmPanel);
             this.Controls.Add(this.daddPanel);
@@ -2601,32 +2428,13 @@
             this.menuPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.mess0)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.including0)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.user0)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.admin0)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.add0)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.mess1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.including1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.user1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.add1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.admin1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).EndInit();
-            this.aboutPanel.ResumeLayout(false);
-            this.aboutPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.开发人员PictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox13)).EndInit();
-            this.suggestPanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox12)).EndInit();
-            this.helpPanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox11)).EndInit();
-            this.wPanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox3)).EndInit();
-            this.pwdPanel.ResumeLayout(false);
-            this.pwdPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox10)).EndInit();
-            this.usermessPanel.ResumeLayout(false);
-            this.usermessPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox9)).EndInit();
             this.dmPanel.ResumeLayout(false);
             this.dmPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox6)).EndInit();
@@ -2636,43 +2444,52 @@
             this.caddPanel.ResumeLayout(false);
             this.caddPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox7)).EndInit();
-            this.daddPanel.ResumeLayout(false);
-            this.daddPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.driverPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox8)).EndInit();
             this.newuserPanel.ResumeLayout(false);
             this.newuserPanel.PerformLayout();
             this.loginPanel.ResumeLayout(false);
             this.loginPanel.PerformLayout();
-            this.adminPanel.ResumeLayout(false);
-            this.adminPanel.PerformLayout();
-            this.modifyPanel.ResumeLayout(false);
-            this.modifyPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox4)).EndInit();
             this.messPanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.cmess0)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.wmess0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cmess0)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dmess0)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.wmess1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cmess1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dmess1)).EndInit();
             this.addPanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.adddmess0)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.addcmess0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.adddmess0)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.addcmess1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.adddmess1)).EndInit();
-            this.userPanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.PWD0)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.usermess0)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.usermess1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PWD1)).EndInit();
             this.includingPanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.suggest0)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.help0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.suggest0)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.about0)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.help1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.suggest1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.about1)).EndInit();
+            this.adminPanel.ResumeLayout(false);
+            this.adminPanel.PerformLayout();
+            this.modifyPanel.ResumeLayout(false);
+            this.modifyPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox4)).EndInit();
+            this.backgroundPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.htPictureBox)).EndInit();
+            this.daddPanel.ResumeLayout(false);
+            this.daddPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox8)).EndInit();
+            this.aboutPanel.ResumeLayout(false);
+            this.aboutPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.开发人员PictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox13)).EndInit();
+            this.suggestPanel.ResumeLayout(false);
+            this.suggestPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox12)).EndInit();
+            this.helpPanel.ResumeLayout(false);
+            this.helpPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox11)).EndInit();
+            this.wPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox3)).EndInit();
             this.downPanel.ResumeLayout(false);
             this.downPanel.PerformLayout();
             this.ResumeLayout(false);
@@ -2686,52 +2503,13 @@
         internal System.Windows.Forms.Label UserLabel;
         internal System.Windows.Forms.PictureBox mess0;
         internal System.Windows.Forms.PictureBox including0;
-        internal System.Windows.Forms.PictureBox user0;
         internal System.Windows.Forms.PictureBox admin0;
         internal System.Windows.Forms.PictureBox add0;
         internal System.Windows.Forms.PictureBox mess1;
         internal System.Windows.Forms.PictureBox including1;
-        internal System.Windows.Forms.PictureBox user1;
         internal System.Windows.Forms.PictureBox add1;
         internal System.Windows.Forms.PictureBox admin1;
         internal System.Windows.Forms.PictureBox PictureBox1;
-        internal System.Windows.Forms.Panel aboutPanel;
-        internal System.Windows.Forms.Label 版本信息Label;
-        internal System.Windows.Forms.Label 人员姓名Label;
-        internal System.Windows.Forms.Label 开发人员Label;
-        internal System.Windows.Forms.PictureBox PictureBox15;
-        internal System.Windows.Forms.PictureBox 开发人员PictureBox;
-        internal System.Windows.Forms.PictureBox PictureBox13;
-        internal System.Windows.Forms.Panel suggestPanel;
-        internal System.Windows.Forms.PictureBox PictureBox12;
-        internal System.Windows.Forms.Panel helpPanel;
-        internal System.Windows.Forms.PictureBox PictureBox11;
-        internal System.Windows.Forms.Panel wPanel;
-        internal System.Windows.Forms.Button selectButton;
-        internal System.Windows.Forms.ListView ListView1;
-        internal System.Windows.Forms.ColumnHeader ColumnHeader1;
-        internal System.Windows.Forms.ColumnHeader ColumnHeader2;
-        internal System.Windows.Forms.ColumnHeader ColumnHeader3;
-        internal System.Windows.Forms.ColumnHeader ColumnHeader4;
-        internal System.Windows.Forms.ColumnHeader ColumnHeader5;
-        internal System.Windows.Forms.ColumnHeader ColumnHeader6;
-        internal System.Windows.Forms.PictureBox PictureBox3;
-        internal System.Windows.Forms.Panel pwdPanel;
-        internal System.Windows.Forms.TextBox newpwdagainTextBox;
-        internal System.Windows.Forms.Label Label53;
-        internal System.Windows.Forms.Button pwdOK;
-        internal System.Windows.Forms.TextBox newpwdTextBox;
-        internal System.Windows.Forms.TextBox oldpwdTextBox;
-        internal System.Windows.Forms.Label Label54;
-        internal System.Windows.Forms.Label Label55;
-        internal System.Windows.Forms.PictureBox PictureBox10;
-        internal System.Windows.Forms.Panel usermessPanel;
-        internal System.Windows.Forms.LinkLabel signoutLinkLabel;
-        internal System.Windows.Forms.TextBox usernameTextBox;
-        internal System.Windows.Forms.TextBox nameTextBox;
-        internal System.Windows.Forms.Label Label57;
-        internal System.Windows.Forms.Label Label59;
-        internal System.Windows.Forms.PictureBox PictureBox9;
         internal System.Windows.Forms.Panel dmPanel;
         internal System.Windows.Forms.TextBox TextBox18;
         internal System.Windows.Forms.TextBox dmTextBox;
@@ -2777,26 +2555,6 @@
         internal System.Windows.Forms.Label Label43;
         internal System.Windows.Forms.Label Label44;
         internal System.Windows.Forms.PictureBox PictureBox7;
-        internal System.Windows.Forms.Panel daddPanel;
-        internal System.Windows.Forms.Button pictureButton;
-        internal System.Windows.Forms.Label Label36;
-        internal System.Windows.Forms.PictureBox driverPictureBox;
-        internal System.Windows.Forms.LinkLabel clearLinkLabel2;
-        internal System.Windows.Forms.Button driverupdateButton;
-        internal System.Windows.Forms.TextBox TextBox34;
-        internal System.Windows.Forms.TextBox TextBox33;
-        internal System.Windows.Forms.TextBox TextBox32;
-        internal System.Windows.Forms.TextBox TextBox31;
-        internal System.Windows.Forms.TextBox TextBox30;
-        internal System.Windows.Forms.TextBox TextBox29;
-        internal System.Windows.Forms.Label Label45;
-        internal System.Windows.Forms.Label Label46;
-        internal System.Windows.Forms.Label Label47;
-        internal System.Windows.Forms.Label Label48;
-        internal System.Windows.Forms.Label Label49;
-        internal System.Windows.Forms.Label Label50;
-        internal System.Windows.Forms.Label Label51;
-        internal System.Windows.Forms.PictureBox PictureBox8;
         internal System.Windows.Forms.Panel newuserPanel;
         internal System.Windows.Forms.Label logintime;
         internal System.Windows.Forms.Button newcancelButton;
@@ -2821,6 +2579,28 @@
         internal System.Windows.Forms.Button entryButton;
         internal System.Windows.Forms.TextBox PasswordTextBox;
         internal System.Windows.Forms.TextBox USERTextBox;
+        internal System.Windows.Forms.Panel messPanel;
+        internal System.Windows.Forms.PictureBox cmess0;
+        internal System.Windows.Forms.PictureBox wmess0;
+        internal System.Windows.Forms.PictureBox dmess0;
+        internal System.Windows.Forms.PictureBox wmess1;
+        internal System.Windows.Forms.PictureBox cmess1;
+        internal System.Windows.Forms.PictureBox dmess1;
+        internal System.Windows.Forms.Panel addPanel;
+        internal System.Windows.Forms.PictureBox adddmess0;
+        internal System.Windows.Forms.PictureBox addcmess0;
+        internal System.Windows.Forms.PictureBox addcmess1;
+        internal System.Windows.Forms.PictureBox adddmess1;
+        internal System.Windows.Forms.Panel includingPanel;
+        internal System.Windows.Forms.PictureBox suggest0;
+        internal System.Windows.Forms.PictureBox help0;
+        internal System.Windows.Forms.PictureBox about0;
+        internal System.Windows.Forms.PictureBox help1;
+        internal System.Windows.Forms.PictureBox suggest1;
+        internal System.Windows.Forms.PictureBox about1;
+        internal System.Windows.Forms.Timer Timer1;
+        internal System.IO.Ports.SerialPort SerialPort1;
+        internal System.Windows.Forms.OpenFileDialog OpenDlg;
         internal System.Windows.Forms.Panel adminPanel;
         internal System.Windows.Forms.Label Label68;
         internal System.Windows.Forms.TextBox adminremarkTextBox;
@@ -2869,34 +2649,59 @@
         internal System.Windows.Forms.TextBox TextBox9;
         internal System.Windows.Forms.TextBox TextBox4;
         internal System.Windows.Forms.TextBox TextBox3;
-        internal System.Windows.Forms.Panel messPanel;
-        internal System.Windows.Forms.PictureBox cmess0;
-        internal System.Windows.Forms.PictureBox wmess0;
-        internal System.Windows.Forms.PictureBox dmess0;
-        internal System.Windows.Forms.PictureBox wmess1;
-        internal System.Windows.Forms.PictureBox cmess1;
-        internal System.Windows.Forms.PictureBox dmess1;
-        internal System.Windows.Forms.Panel addPanel;
-        internal System.Windows.Forms.PictureBox adddmess0;
-        internal System.Windows.Forms.PictureBox addcmess0;
-        internal System.Windows.Forms.PictureBox addcmess1;
-        internal System.Windows.Forms.PictureBox adddmess1;
-        internal System.Windows.Forms.Panel userPanel;
-        internal System.Windows.Forms.PictureBox PWD0;
-        internal System.Windows.Forms.PictureBox usermess0;
-        internal System.Windows.Forms.PictureBox usermess1;
-        internal System.Windows.Forms.PictureBox PWD1;
-        internal System.Windows.Forms.Panel includingPanel;
-        internal System.Windows.Forms.PictureBox suggest0;
-        internal System.Windows.Forms.PictureBox help0;
-        internal System.Windows.Forms.PictureBox about0;
-        internal System.Windows.Forms.PictureBox help1;
-        internal System.Windows.Forms.PictureBox suggest1;
-        internal System.Windows.Forms.PictureBox about1;
-        internal System.Windows.Forms.Timer Timer1;
-        internal System.IO.Ports.SerialPort SerialPort1;
-        internal System.Windows.Forms.OpenFileDialog OpenDlg;
+        internal System.Windows.Forms.Panel backgroundPanel;
+        internal System.Windows.Forms.PictureBox htPictureBox;
+        internal System.Windows.Forms.WebBrowser dielingWebBrowser;
+        internal System.Windows.Forms.Panel daddPanel;
+        internal System.Windows.Forms.TextBox TextBox16;
+        internal System.Windows.Forms.Label Label26;
+        internal System.Windows.Forms.LinkLabel clearLinkLabel2;
+        internal System.Windows.Forms.Button driverupdateButton;
+        internal System.Windows.Forms.TextBox TextBox34;
+        internal System.Windows.Forms.TextBox TextBox33;
+        internal System.Windows.Forms.TextBox TextBox32;
+        internal System.Windows.Forms.TextBox TextBox31;
+        internal System.Windows.Forms.TextBox TextBox30;
+        internal System.Windows.Forms.TextBox TextBox29;
+        internal System.Windows.Forms.Label Label45;
+        internal System.Windows.Forms.Label Label46;
+        internal System.Windows.Forms.Label Label47;
+        internal System.Windows.Forms.Label Label48;
+        internal System.Windows.Forms.Label Label49;
+        internal System.Windows.Forms.Label Label50;
+        internal System.Windows.Forms.Label Label51;
+        internal System.Windows.Forms.PictureBox PictureBox8;
+        internal System.Windows.Forms.Panel aboutPanel;
+        internal System.Windows.Forms.Label 版本信息Label;
+        internal System.Windows.Forms.Label 人员姓名Label;
+        internal System.Windows.Forms.Label 开发人员Label;
+        internal System.Windows.Forms.PictureBox PictureBox15;
+        internal System.Windows.Forms.PictureBox 开发人员PictureBox;
+        internal System.Windows.Forms.PictureBox PictureBox13;
+        internal System.Windows.Forms.Panel suggestPanel;
+        internal System.Windows.Forms.Label suggestLabel;
+        internal System.Windows.Forms.TextBox suggestTextBox;
+        internal System.Windows.Forms.Button suggestButton;
+        internal System.Windows.Forms.PictureBox PictureBox12;
+        internal System.Windows.Forms.Panel helpPanel;
+        internal System.Windows.Forms.Label includingLabel;
+        internal System.Windows.Forms.PictureBox PictureBox11;
+        internal System.Windows.Forms.Panel wPanel;
+        internal System.Windows.Forms.Button selectButton;
+        internal System.Windows.Forms.ListView ListView1;
+        internal System.Windows.Forms.ColumnHeader ColumnHeader1;
+        internal System.Windows.Forms.ColumnHeader ColumnHeader2;
+        internal System.Windows.Forms.ColumnHeader ColumnHeader3;
+        internal System.Windows.Forms.ColumnHeader ColumnHeader4;
+        internal System.Windows.Forms.ColumnHeader ColumnHeader5;
+        internal System.Windows.Forms.ColumnHeader ColumnHeader6;
+        internal System.Windows.Forms.ColumnHeader ColumnHeader7;
+        internal System.Windows.Forms.PictureBox PictureBox3;
+        internal System.Windows.Forms.Label Label25;
+        internal System.Windows.Forms.Label label36;
         internal System.Windows.Forms.Panel downPanel;
+        internal System.Windows.Forms.LinkLabel backgroundLinkLabel;
+        internal System.Windows.Forms.LinkLabel signoutLinkLabel;
         internal System.Windows.Forms.Label time;
     }
 }
